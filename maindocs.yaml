@@ -1,0 +1,2906 @@
+elements:
+  a:
+    global:
+      - 'contitional processing attributes'
+      - 'core attributes'
+      - 'Graphical event attribtues'
+      - 'Xlink attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific:
+      - href
+      - target
+      - 'xlink:show'
+      - 'xlink:actuate'
+      - 'xlink:href'
+  animate:
+    global:
+      - 'contitional processing attributes'
+      - 'core attributes'
+      - 'Animation event attribtues'
+      - 'Xlink attributes'
+      - 'Animation attribute target attributes'
+      - 'Animation timing attributes'
+      - 'Animation value attributes'
+      - 'Animation addition attributes'
+    specific:
+      - attributeName
+      - attributeType
+      - from
+      - to
+      - dur
+      - repeatCount
+  animateMotion:
+    global:
+      - 'contitional processing attributes'
+      - 'core attributes'
+      - 'Animation event attribtues'
+      - 'Xlink attributes'
+      - 'Animation timing attributes'
+      - 'Animation value attributes'
+      - 'Animation addition attributes'
+      - eternalResourcesRequired
+    specific:
+      - calcMode
+      - path
+      - keyPoints
+      - rotate
+      - origin
+  animateTransform:
+    global:
+      - 'contitional processing attributes'
+      - 'core attributes'
+      - 'Animation event attribtues'
+      - 'Xlink attributes'
+      - 'Animation attribute target attributes'
+      - 'Animation timing attributes'
+      - 'Animation value attributes'
+      - 'Animation addition attributes'
+      - eternalResourcesRequired
+    specific:
+      - by
+      - from
+      - to
+      - type
+  circle:
+    global:
+      - 'Contitional processing attributes'
+      - 'Core attributes'
+      - 'Animation event attribtues'
+      - 'Presentation attributes'
+      - class
+      - style
+      - eternalResourcesRequired
+      - transform
+    specific:
+      - cx
+      - cy
+      - r
+  clipPath:
+    global:
+      - 'Contitional processing attributes'
+      - 'Core attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - eternalResourcesRequired
+      - transform
+    specific:
+      - clipPathUnits
+  color-profile:
+    global:
+      - 'Core attributes'
+      - 'Xlink attributes'
+    specific:
+      - local
+      - name
+      - rendering-intent
+      - 'xlink:href'
+  defs:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific: null
+  desc:
+    global:
+      - 'Core attributes'
+      - class
+      - style
+    specific: null
+  discard:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Aria attributes'
+    specific:
+      - begin
+      - href
+  ellipse:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific:
+      - cx
+      - cy
+      - rx
+      - ry
+  feBlend:
+    global:
+      - 'Core attribtues'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - in2
+      - mode
+  fecolormatrix:
+    global:
+      - 'Core attributes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - type
+      - values
+  feComponentTransfer:
+    global:
+      - 'Core attributes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+  feComposite:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - in2
+      - operator
+      - k1
+      - k2
+      - k3
+      - k4
+  feConvolveMatrix:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - order
+      - kernelMatrix
+      - divisor
+      - bias
+      - targetX
+      - targetY
+      - edgeMode
+      - kernelUnitLength
+      - preserveAlpha
+  feDiffuseLighting:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - surfaceScale
+      - diffuseConstant
+      - kernelUnitLength
+  feDisplacementMap:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - in2
+      - scale
+      - xChannelSelector
+      - yChannelSelector
+  feDistantLight:
+    global:
+      - 'Core attributes'
+    specific:
+      - azimuth
+      - elevation
+  feDropShadow:
+    global:
+      - 'Core attribtues'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+    specific:
+      - class
+      - style
+      - in
+      - stdDeviation
+      - dx
+      - dy
+  feFlood:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - flood-color
+      - flood-opacity
+  feFuncA:
+    global:
+      - 'Core attirbutes'
+      - 'Transfer function attributes'
+    specific: null
+  feFuncB:
+    global:
+      - 'Core attirbutes'
+      - 'Transfer function attributes'
+    specific: null
+  feFuncG:
+    global:
+      - 'Core attirbutes'
+      - 'Transfer function attributes'
+    specific: null
+  feFuncR:
+    global:
+      - 'Core attirbutes'
+      - 'Transfer function attributes'
+    specific: null
+  feGaussianBlur:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - stdDeviation
+      - edgeMode
+  feImage:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - 'XLink attributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - preserveAspectRatio
+      - 'xlink:href'
+  feMerge:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific: null
+  feMergeNode:
+    global:
+      - 'Core attributes'
+    specific:
+      - in
+  feMorphology:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - operator
+      - radius
+  feOffset:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - dx
+      - dy
+  fePointLight:
+    global:
+      - 'Core attributes'
+    specific:
+      - x
+      - y
+      - z
+  feSpecularLighting:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+      - surfaceScale
+      - specularConstant
+      - specularExponent
+      - kernelUnitLength
+  feSpotLight:
+    global:
+      - 'Core attributes'
+    specific:
+      - x
+      - y
+      - z
+      - pointsAtX
+      - pointsAtY
+      - pointsAtZ
+      - specularExponent
+      - limitingConeAngle
+  feTile:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - in
+  feTurbulence:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - 'Filter primitive attributes'
+      - class
+      - style
+    specific:
+      - baseFrequency
+      - numOctaves
+      - seed
+      - stitchTiles
+      - type
+  filter:
+    global:
+      - 'Core attributes'
+      - 'Presentation attributes'
+      - 'XLink attributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - x
+      - y
+      - width
+      - height
+      - filterRes
+      - filterUnits
+      - primitiveUnits
+      - 'xlink:href'
+  font:
+    global:
+      - 'Core attirbutes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - horiz-origin-x
+      - horiz-origin-y
+      - horiz-adv-x
+      - vert-origin-x
+      - vert-origin-y
+      - vert-adv-y
+  foreignObject:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific:
+      - x
+      - y
+      - width
+      - height
+  g:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific: null
+  hatch:
+    global:
+      - 'Core attributes'
+      - 'Global event attributes'
+      - 'Presentation attributes'
+      - 'Style attributes'
+    specific:
+      - x
+      - y
+      - pitch
+      - rotate
+      - hatchUnits
+      - hatchContentUnits
+      - transform
+      - href
+  hatchpath:
+    global:
+      - 'Core attributes'
+      - 'Global event attributes'
+      - 'Presentation attributes'
+      - 'Style attributes'
+    specific:
+      - d
+      - offset
+  image:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - 'Xlink attributes'
+      - class
+      - style
+      - externalResources
+      - transform
+    specific:
+      - x
+      - y
+      - width
+      - height
+      - 'xlink:href'
+      - preserveAspectRatio
+  line:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResources
+      - transform
+    specific:
+      - x1
+      - x2
+      - y1
+      - y2
+  linearGradient:
+    global:
+      - 'Core attributes'
+      - 'Presentation attributes'
+      - 'Xlink atttributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - gradientUnits
+      - gradientTransform
+      - x1
+      - y1
+      - x2
+      - y2
+      - spreadMethod
+      - 'xlink:href'
+  marker:
+    global:
+      - 'Core attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - viewBox
+      - preserveAspectRatio
+      - transform
+    specific:
+      - markerUnits
+      - refX
+      - refY
+      - markerWidth
+      - markerHeight
+      - orient
+  mask:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - maskUnits
+      - maskContentUnits
+      - x
+      - y
+      - width
+      - height
+  metadata:
+    global:
+      - 'Core attributes'
+      - 'Global event attribtues'
+    specific: null
+  mpath:
+    global:
+      - 'Core attributes'
+      - 'Xlink attributes'
+      - externalResourcesRequired
+    specific:
+      - 'xlink:href'
+  path:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific:
+      - d
+      - pathLength
+      - fillOpacity
+  pattern:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Presentation attribtues'
+      - 'Xlink attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - viewBox
+    specific:
+      - patternUnits
+      - patternContentUnits
+      - patternTransform
+      - x
+      - y
+      - width
+      - height
+      - 'xlink:href'
+      - preserveAspectRatio
+  polygon:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific:
+      - points
+  polyline:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific:
+      - points
+  radialGradient:
+    global:
+      - 'Conditional processing attributes'
+      - 'Presentation attributes'
+      - 'Xlink attributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - gradientUnits
+      - gradientTransform
+      - cx
+      - cy
+      - r
+      - fx
+      - fy
+      - fr
+      - spreadMethod
+      - 'xlink:href'
+  rect:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific:
+      - x
+      - y
+      - width
+      - height
+      - rx
+      - ry
+  script:
+    global:
+      - 'Core attributes'
+      - 'Xlink attributes'
+      - externalResourcesRequired
+    specific:
+      - type
+      - 'xlink:href'
+  set:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Animation event attributes'
+      - 'Xlink attributes'
+      - 'Animation attributes target attributes'
+      - 'Animation timing attributes'
+      - externalResourcesRequired
+    specific:
+      - to
+  solidcolor:
+    global:
+      - 'Core attributes'
+      - 'Global event attributes'
+      - 'Presentation attributes'
+      - 'Style attributes'
+    specific: null
+  stop:
+    global:
+      - 'Core attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+    specific:
+      - offset
+      - stop-color
+      - stop-opacity
+  style:
+    global:
+      - 'Core attributes'
+    specific:
+      - type
+      - media
+      - title
+  svg:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Document event attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - version
+      - baseProfile
+      - x
+      - y
+      - width
+      - height
+      - preserveAspectRatio
+      - contentScriptType
+      - contentStyleType
+      - viewBox
+  switch:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific: null
+  symbol:
+    global:
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - preserveAspectRatio
+      - viewBox
+  text:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific:
+      - x
+      - y
+      - dx
+      - dy
+      - text-anchor
+      - rotate
+      - textLength
+      - lengthAdjust
+  textpath:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - 'Xlink attributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - startOffset
+      - method
+      - spacing
+      - href
+  title:
+    global:
+      - 'Core attributes'
+      - class
+      - style
+    specific: null
+  tspan:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - class
+      - style
+      - externalResourcesRequired
+    specific:
+      - x
+      - y
+      - dx
+      - dy
+      - rotate
+      - textLength
+      - lengthAdjust
+  use:
+    global:
+      - 'Conditional processing attributes'
+      - 'Core attributes'
+      - 'Graphical event attributes'
+      - 'Presentation attributes'
+      - 'Xlink attributes'
+      - class
+      - style
+      - externalResourcesRequired
+      - transform
+    specific:
+      - x
+      - y
+      - width
+      - height
+      - href
+  view:
+    global:
+      - 'Aria attributes'
+      - 'Core attributes'
+      - 'Global event attributes'
+      - externalResourcesRequired
+    specific:
+      - viewBox
+      - preserveAspectRatio
+      - zoomAndPan
+      - viewTarget
+'element categories':
+  'animation elements':
+    - animate
+    - animateColor
+    - animateMotion
+    - animateTransform
+    - discard
+    - mpath
+    - set
+  'basic shapes':
+    - circle
+    - ellipse
+    - line
+    - polygon
+    - polyline
+    - rect
+  'Container elements':
+    - a
+    - defs
+    - g
+    - marker
+    - mask
+    - missing-glyph
+    - pattern
+    - svg
+    - switch
+    - symbol
+    - unknown
+  'Descriptive elements':
+    - desc
+    - metadata
+    - title
+  'Filter primitive elements':
+    - feBlend
+    - feColorMatrix
+    - feComponentTransfer
+    - feComposite
+    - feConvolveMatrix
+    - feDiffuseLighting
+    - feDisplacementMap
+    - feDropShadow
+    - feFlood
+    - feFuncA
+    - feFuncB
+    - feFuncG
+    - feFuncR
+    - feGaussianBlur
+    - feImage
+    - feMerve
+    - feMergeNode
+    - feMorphology
+    - feOffset
+    - feSpecularLighting
+    - feTile
+    - feTurbulence
+  'Font elements':
+    - font
+    - font-face
+    - font-face-format
+    - fon-face-name
+    - font-face-src
+    - font-face-uri
+    - hkern
+    - vkern
+  'Gradient elements':
+    - linearGradient
+    - meshgradient
+    - radialGradient
+    - stop
+  'Graphics elements':
+    - circle
+    - ellipse
+    - image
+    - line
+    - mesh
+    - path
+    - polygon
+    - polyline
+    - rect
+    - text
+    - use
+  'Graphics referencing elements':
+    - audio
+    - iframe
+    - image
+    - mesh
+    - use
+    - video
+  'HTML elements':
+    - audio
+    - canvas
+    - iframe
+    - video
+  'Light source elements':
+    - feDistantLight
+    - fePointLight
+    - feSpotLight
+  'Never-rendered elements':
+    - clipPath
+    - defs
+    - hatch
+    - linearGradient
+    - marker
+    - mask
+    - meshgradient
+    - metadata
+    - pattern
+    - radialGradient
+    - script
+    - style
+    - symbol
+    - title
+  'Paint server elements':
+    - hatch
+    - linearGradient
+    - meshgradient
+    - pattern
+    - radialGradient
+    - solidcolor
+  'Renderable elements':
+    - a
+    - audio
+    - canva
+    - circle
+    - ellipse
+    - foreignObject
+    - g
+    - iframe
+    - image
+    - line
+    - mesh
+    - path
+    - polygon
+    - polyline
+    - rect
+    - svg
+    - switch
+    - symbol
+    - text
+    - textPath
+    - tspan
+    - unknown
+    - use
+    - video
+  'Shape elements':
+    - circle
+    - ellipse
+    - line
+    - mesh
+    - path
+    - polygon
+    - polyline
+    - rect
+  'Strucutral elments':
+    - defs
+    - g
+    - svg
+    - symbol
+    - use
+  'Text content elements':
+    - altGlyph
+    - altGlyphDef
+    - altGlyphItem
+    - glyph
+    - glyphRef
+    - textPath
+    - text
+    - tref
+    - tspan
+  'Text content child elements':
+    - altGlyph
+    - textPath
+    - tref
+    - tspan
+  'Uncategorized elements':
+    - clipPath
+    - color-profile
+    - cursor
+    - filter
+    - foreignObject
+    - hatchpath
+    - meshpatch
+    - meshrow
+    - script
+    - style
+    - view
+attributes:
+  accent-height:
+    description: "This attribute defines the distance from the origin to the top of accent characters, measured by a distance within the font coordinate system.\nIf the attribute is not specified, the effect is as if the attribute were set to the value of the ascent attribute."
+    values:
+      number: null
+    usedIn:
+      - font-face
+  accumulate:
+    description: "This attribute controls whether or not the animation is cumulative.\nIt is frequently useful for repeated animations to build upon the previous results, accumulating with each iteration. This attribute said to the animation if the value is added to the previous animated attribute's value on each iteration."
+    values:
+      none: '(default) Specifies that repeat iterations are not cumulative. This is the default.'
+      sum: 'Specifies that each repeat iteration after the first builds upon the last value of the previous iteration.'
+    usedIn:
+      - animate
+      - animateColor
+      - animateMotion
+      - animateTransform
+  additive:
+    description: "This attribute controls whether or not the animation is additive.\nIt is frequently useful to define animation as an offset or delta to an attribute's value, rather than as absolute values. This attribute said to the animation if their values are added to the original animated attribute's value."
+    values:
+      replace: '(default) Specifies that the animation will override the underlying value of the attribute and other lower priority animations. This is the default, however the behavior is also affected by the animation value attributes by and to, as described in SMIL Animation: How from, to and by attributes affect additive behavior.'
+      sum: 'Specifies that the animation will add to the underlying value of the attribute and other lower priority animations.'
+    usedIn:
+      - animate
+      - animateColor
+      - animateMotion
+      - animateTransform
+  alignment-baseline:
+    description: "The alignment-baseline attribute specifies how an object is aligned with respect to its parent. This property specifies which baseline of this element is to be aligned with the corresponding baseline of the parent. For example, this allows alphabetic baselines in Roman text to stay aligned across font size changes. It defaults to the baseline with the same name as the computed value of the alignment-baseline property.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css alignment-baseline for further information."
+    values:
+      auto: null
+      baseline: null
+      before-edge: null
+      text-before-edge: null
+      middle: null
+      central: null
+      after-edge: null
+      text-after-edge: null
+      ideographic: null
+      alphabetic: null
+      hanging: null
+      mathematical: null
+      inherit: null
+    usedIn:
+      - tspan
+      - tref
+      - altGlyph
+      - textPath
+  ascent:
+    description: "This attribute defines the maximum unaccented depth of the font within the font coordinate system.\nIf the attribute is not specified, the effect is as if the attribute were set to the vert-origin-y value for the corresponding font."
+    values:
+      number: null
+    usedIn:
+      - font-face
+  attributename:
+    description: null
+    values:
+      attributeName: string
+    usedIn:
+      - animate
+      - animateColor
+      - animateTransform
+      - set
+  attributetype:
+    description: 'This attribute specifies the namespace in which the target attribute and its associated values are defined.'
+    values:
+      CSS: 'This specifies that the value of attributeName is the name of a CSS property defined as animatable'
+      XML: 'This specifies that the value of attributeName is the name of an XML attribute defined as animatable in the default XML namespace for the target element.'
+      auto: 'The implementation should match the attributeName to an attribute for the target element. User-agents first search through the list of CSS properties for a matching property name, and if none is found, search the default XML namespace for the element.'
+    usedIn:
+      - animate
+      - animateColor
+      - animateTransform
+      - set
+  azimuth:
+    description: "The azimuth attribute represent the direction angle for the light source on the XY plane (clockwise), in degrees from the x axis.\nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number: null
+    usedIn:
+      - feDistantLight
+  baseFrequency:
+    description: "The baseFrequency attribute represent The base frequencies parameter for the noise function of the <feTurbulence> primitive. If two <number>s are provided, the first number represents a base frequency in the X direction and the second value represents a base frequency in the Y direction. If one number is provided, then that value is used for both X and Y.\nNegative values are forbidden.\nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number: (optional)
+    usedIn:
+      - feTurbulence
+  baseline-shift:
+    description: 'The baseline-shift attribute allows repositioning of the dominant-baseline relative to the dominant-baseline of the parent text content element. The shifted object might be a sub- or superscript.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css baseline-shift for further information.'
+    values:
+      auto: null
+      baseline: 'There is no baseline shift; the dominant-baseline remains in its original position.'
+      super: 'The dominant-baseline is shifted to the default position for superscripts.'
+      sub: 'The dominant-baseline is shifted to the default position for subscripts.'
+      percentage: 'The resulting value of the property is this percentage multiplied by the line-height of the <text> element. The dominant-baseline is shifted in the shift direction (positive value) or opposite to the shift direction (negative value) of the parent text content element by the resulting value. A value of "0%" is equivalent to "baseline".'
+      length: 'The dominant-baseline is shifted in the shift direction (positive value) or opposite to the shift direction (negative value) of the parent text content element by the <length> value. A value of "0cm" is equivalent to "baseline".'
+      inherit: null
+    usedIn:
+      - tspan
+      - tref
+      - altGlyph
+      - textPath
+  baseProfile:
+    description: "The baseProfile attribute describes the minimum SVG language profile that the author believes is necessary to correctly render the content. The attribute does not specify any processing restrictions; It can be considered metadata. For example, the value of the attribute could be used by an authoring tool to warn the user when they are modifying the document beyond the scope of the specified base profile.\nEach SVG profile should define the text that is appropriate for this attribute. If the attribute is not specified, the effect is as if a value of none were specified."
+    values:
+      none: 'Represents the minimum SVG language configuration file that does not describe the author''s view of the correct rendering of content.'
+      full: 'Represents a normal profile, defined to be suitable for PCs.'
+      basic: 'Represents a light weight profile, defined to be suitable for PDAs.'
+      tiny: 'Represents an even more light weight profile, defined to be suitable for cellphones.'
+    usedIn:
+      - svg
+  begin:
+    description: "This attribute defines when an animation should begin.\nThe attribute value is a semicolon separated list of values. The interpretation of a list of start times is detailed in the SMIL specification in \"Evaluation of begin and end time lists\". Each individual value can be one of the following : <offset-value>, <syncbase-value>, <event-value>, <repeat-value>, <accessKey-value>, <wallclock-sync-value> or the keyword indefinite."
+    values:
+      begin-value-listy: { offset-value: 'A Clock-value that represents a point in time relative to the beginning of the SVG document (usually the load or DOMReady event). Negative values are valid.', syncbase-value: 'Describes a syncbase and an optional offset from that syncbase. The element''s animation start time is defined relative to the begin or active end of another animation. A syncbase consists of an ID reference to another animation element followed by either .begin or .end to identify whether to synchronize with the beginning or active end of the referenced animation element.', event-value: 'Describes an event and an optional offset that determines the time at which the element''s animation should begin. The animation start time is defined relative to the time that the specified event is fired. A valid event-value consists of an element ID followed by a dot and one of the supported events for that element. All the valid events (not necessarily supported by all elements) are: focusin, focusout, activate, click, mousedown, mouseup, mouseover, mousemove, mouseout, DOMSubtreeModified, DOMNodeInserted, DOMNodeRemoved, DOMNodeRemovedFromDocument, DOMNodeInsertedIntoDocument, DOMAttrModified, DOMCharacterDataModified, SVGLoad, SVGUnload, SVGAbort, SVGError, SVGResize, SVGScroll, SVGZoom, beginEvent, endEvent and repeatEvent.', repeat-value: 'Describes a qualified repeat event. The element animation start time is defined relative to the time that the repeat event is raised with the specified iteration value.', accessKey-value: 'Describes an accessKey that should trigger the animation. The element animation will begin when the user presses the specified key.', wallclock-sync-value: 'Describes the animation start time as a real-world clock time. The time syntax is based upon the syntax defined in ISO8601.' }
+    usedIn:
+      - 'animation elements'
+  bias:
+    description: "The bias attribute shifts the range of the filter. After applying the kernelMatrix of the <feConvolveMatrix> element to the input image to yield a number and applied the divisor attribute, the bias attribute is added to each component. This allows representation of values that would otherwise be clamped to 0 or 1.\nIf bias is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number: null
+    usedIn:
+      - feConvolveMatrix
+  calcMode:
+    description: 'This attribute specifies the interpolation mode for the animation. The default mode is linear, however if the attribute does not support linear interpolation (e.g. for strings), the calcMode attribute is ignored and discrete interpolation is used.'
+    values:
+      discrete: 'This specifies that the animation function will jump from one value to the next without any interpolation.'
+      linear: 'Simple linear interpolation between values is used to calculate the animation function. Except for <animateMotion>, this is the default value.'
+      paced: 'Defines interpolation to produce an even pace of change across the animation. This is only supported for values that define a linear numeric range, and for which some notion of "distance" between points can be calculated (e.g. position, width, height, etc.). If paced is specified, any keyTimes or keySplines will be ignored. For <animateMotion>, this is the default value.'
+      spline: 'Interpolates from one value in the values list to the next according to a time function defined by a cubic Bézier spline. The points of the spline are defined in the keyTimes attribute, and the control points for each interval are defined in the keySplines attribute.'
+    usedIn:
+      - animate
+      - animateColor
+      - animateMotion
+      - animateTransform
+  class:
+    description: "Assigns a class name or set of class names to an element. You may assign the same class name or names to any number of elements, however, multiple class names must be separated by whitespace characters.\nAn element's class name serves two key roles:\n\nAs a style sheet selector, for when an author assigns style information to a set of elements.\nFor general use by the browser.\n\nYou can use this class to style SVG content using CSS."
+    values:
+      list-of-class-names: 'A list of classes to be applied, separated by comma'
+    usedIn:
+      - a
+      - altGlyph
+      - circle
+      - clipPath
+      - defs
+      - desc
+      - ellipse
+      - feBlend
+      - feColorMatrix
+      - feComponentTransfer
+      - feComposite
+      - feConvolveMatrix
+      - feDiffuseLighting
+      - feDisplacementMap
+      - feFlood
+      - feGaussianBlur
+      - feImage
+      - feMerge
+      - feMorphology
+      - feOffset
+      - feSpecularLighting
+      - feTile
+      - feTurbulence
+      - filter
+      - font
+      - foreignObject
+      - g
+      - glyph
+      - glyphRef
+      - image
+      - line
+      - linearGradient
+      - marker
+      - mask
+      - missing-glyph
+      - path
+      - pattern
+      - polygon
+      - polyline
+      - radialGradient
+      - rect
+      - stop
+      - svg
+      - switch
+      - symbol
+      - text
+      - textPath
+      - title
+      - tref
+      - tspan
+      - use
+  clip:
+    description: "The clip attribute has the same parameter values as defined for the css clip property. Unitless values, which indicate current user coordinates, are permitted on the coordinate values on the <shape>. The value of auto defines a clipping path along the bounds of the viewport created by the given element.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css clip for further information."
+    values:
+      auto: null
+      shape: null
+      inherit: null
+    usedIn:
+      - svg
+      - symbol
+      - image
+      - foreignObject
+      - pattern
+      - marker
+  clip-path:
+    description: "The clip-path attribute binds the element it is applied to with a given <clipPath> element\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet"
+    values:
+      FuncIRI: 'A reference to another graphical object within the same SVG document fragment which will be used as the clipping path. the syntax for this reference is the same as the css uri. If the reference is not valid (e.g it points to an object that doesn''t exist or the object is not a <clipPath> element) the clip-path attribute or property must be treated as if it hadn''t been specified.'
+      none: null
+      inherit: null
+    usedIn:
+      - clipPath
+  clip-rule:
+    description: 'The clip-rule attribute only applies to graphics elements that are contained within a <clipPath> element. The clip-rule attribute basically works as the fill-rule attribute, except that it applies to <clipPath> definitions. See more here: http://devdocs.io/svg/attribute/clip-rule'
+    values:
+      nonzero: 'See description of fill-rule property.'
+      evenodd: 'See description of fill-rule property.'
+      inherit: null
+    usedIn:
+      - 'any graphical element inside a <clipPath> element'
+  clipPathUnits:
+    description: "The clipPathUnits attribute defines the coordinate system for the contents of the <clipPath> element.\nIf the clipPathUnits attribute is not specified, then the effect is as if a value of userSpaceOnUse were specified.\nNote that values defined as a percentage inside the content of the <clipPath> are not affected by this attribute. It means that even if you set the value of maskContentUnits to objectBoundingBox, percentage values will be calculated as if the value of the attribute were userSpaceOnUse."
+    values:
+      userSpaceOnUse: 'The contents of the <clipPath> element represent values in the current user coordinate system in place at the time when the <clipPath> element is referenced (i.e., the user coordinate system for the element referencing the <clipPath> element via the clip-path attribute).'
+      objectBoundingBox: 'The user coordinate system for the contents of the <clipPath> element is established using the bounding box of the element to which the clipping path is applied'
+    usedIn:
+      - clipPath
+  color:
+    description: "The color attribute is used to provide a potential indirect value (currentColor) for the fill, stroke, stop-color, flood-color and lighting-color attributes.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css color for further information."
+    values:
+      color: 'a html/css color value'
+    usedIn:
+      - 'Text content elements'
+      - 'Shape elements'
+      - stop
+      - feFlood
+      - feDiffuseLighting
+      - feSpecularLighting
+  color-interpolation:
+    description: "The color-interpolation attribute specifies the color space for gradient interpolations, color animations, and alpha compositing.\nWhen a child element is blended into a background, the value of the color-interpolation attribute on the child determines the type of blending, not the value of the color-interpolation on the parent. For gradients which make use of the xlink:href attribute to reference another gradient, the gradient uses the color-interpolation attribute value from the gradient element which is directly referenced by the fill or stroke attribute. When animating colors, color interpolation is performed according to the value of the color-interpolation attribute on the element being animated.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet. See css color-interpolation for further information."
+    values:
+      auto: 'Indicates that the user agent can choose either the sRGB or linearRGB spaces for color interpolation. This option indicates that the author doesn''t require that color interpolation occur in a particular color space.'
+      sRGB: 'Indicates that color interpolation should occur in the sRGB color space.'
+      linearRGB: 'Indicates that color interpolation should occur in the linearized RGB color space as described in the sRGB specification.'
+      inherit: null
+    usedIn:
+      - 'Containers elements'
+      - 'Graphics elements'
+      - animate
+      - animateColor
+  color-interpolation-filters:
+    description: "The color-interpolation-filters attribute specifies the color space for imaging operations performed via filter effects.\nNote that color-interpolation-filters has a different initial value than color-interpolation. color-interpolation-filters has an initial value of linearRGB, whereas color-interpolation has an initial value of sRGB. Thus, in the default case, filter effects operations occur in the linearRGB color space, whereas all other color interpolations occur by default in the sRGB color space.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css color-interpolation-filters for further information"
+    values:
+      auto: 'Indicates that the user agent can choose either the sRGB or linearRGB spaces for color interpolation. This option indicates that the author doesn''t require that color interpolation occur in a particular color space.'
+      sRGB: 'Indicates that color interpolation should occur in the sRGB color space.'
+      linearRGB: 'Indicates that color interpolation should occur in the linearized RGB color space as described in the sRGB specification.'
+      inherit: null
+    usedIn:
+      - 'Filter primitive elements'
+  color-profile:
+    description: "The color-profile attribute is used to define which color profile a raster image included through the <image> element should use.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css color-profile for further information."
+    values:
+      auto: 'This is the default behavior. All colors are presumed to be defined in the sRGB color space unless a more precise embedded profile is specified within content data. For images that do have a profile built into their data, that profile is used. For images that do not have a profile, the sRGB profile is used.'
+      sRGB: 'The source profile is assumed to be sRGB. This differs from auto in that it overrides an embedded profile inside an image.'
+      name: 'A name corresponding to a defined color profile that is in the browser''s color profile description database. The browser searches the color profile description database for a color profile description entry whose name descriptor matches <name> and uses the last matching entry that is found. If a match is found, the corresponding profile overrides an embedded profile inside an image. If no match is found, then the embedded profile inside the image is used.'
+      IRI: '<IRI> A IRI reference to the source color profile. The referenced color profile overrides an embedded profile inside the image.'
+      inherit: null
+    usedIn:
+      - 'image (raster only)'
+  color-rendering:
+    description: "The color-rendering attribute provides a hint to the SVG user agent about how to optimize its color interpolation and compositing operations.\ncolor-rendering takes precedence over color-interpolation-filters. For example, assume color-rendering: optimizeSpeed and  color-interpolation-filters: linearRGB. In this case, the SVG user agent should perform color operations in a way that optimizes performance, which might mean sacrificing the color interpolation precision as specified by color-interpolation-filters: linearRGB.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css color-rendering for further information"
+    values:
+      auto: 'Indicates that the user agent shall make appropriate tradeoffs to balance speed and quality, but quality shall be given more importance than speed.'
+      optimizeSpeed: 'Indicates that the user agent shall emphasize rendering speed over quality. For RGB display devices, this option will sometimes cause the user agent to perform color interpolation and compositing in the device RGB color space.'
+      optimizeQuality: 'Indicates that the user agent shall emphasize quality over rendering speed.'
+      inherit: null
+    usedIn:
+      - 'Containers elements'
+      - 'Graphics elements'
+      - animate
+      - animateColor
+  contentScriptType:
+    description: "The contentScriptType attribute on the <svg> element specifies the default scripting language for the given document fragment.\nThis attribute sets the default scripting language used to process the value strings in event attributes. This language must be used for all instances of script that do not specify their own scripting language. The value content-type specifies a media type, per MIME Part Two: Media Types [RFC2046]. The default value is application/ecmascript"
+    values:
+      content-type: '<content-type>'
+    usedIn:
+      - 'Document element attributes'
+      - script
+  contentStyleType:
+    description: 'This attribute specifies the style sheet language for the given document fragment. The contentStyleType is specified on the <svg> element. By default, if it''s not defined, the value is text/css'
+    values:
+      content-type: '<content-type> ...Since CSS is the only widely deployed style sheet language for online styling and it''s already defined as default value if contentStyleType is ommitted, the attribute is not well supported in user agents. If other style sheet languages become more popular they might not use the style attribute, instead it could be easily declared which style language is used in the <style>''s type attribue. The use of contentStyleType is therefore deprecated'
+    usedIn:
+      - 'style (element)'
+      - 'style (attribute)'
+  cursor:
+    description: "The cursor attribute specifies the mouse cursor displayed when the mouse pointer is over an element.\nThis attribute behaves exactly like the css cursor property except that if the browser supports the <cursor> element, you should be able to use it with the <funciri> notation.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css cursor for further information."
+    values:
+      funciri: 'Functional notation for a reference, the syntax for this reference is the same as the css uri'
+      auto: null
+      crosshair: null
+      default: null
+      pointer: null
+      move: null
+      e-resize: null
+      ne-resize: null
+      nw-resize: null
+      n-resize: null
+      se-resize: null
+      sw-resize: null
+      s-resize: null
+      w-resize: null
+      text: null
+      wait: null
+      help: null
+      inherit: null
+    usedIn:
+      - 'Container elements'
+      - 'Graphics elements'
+  cx:
+    description: "For the <circle> and the <ellipse> element, this attribute defines the x-axis coordinate of the center of the element. If the attribute is not specified, the effect is as if a value of '0' were specified.\nFor the <radialGradient> element, this attribute defines the x-axis coordinate of the largest (i.e., outermost) circle for the radial gradient. The gradient will be drawn such that the 100% gradient stop is mapped to the perimeter of this largest (i.e., outermost) circle. If the attribute is not specified, the effect is as if a value of 50% were specified."
+    values:
+      coordinate: "A <coordinate> is a length in the user coordinate system that is the given distance from the origin of the user coordinate system along the relevant axis (the x-axis for X coordinates, the y-axis for Y coordinates). Its syntax is the same as that for <length>.\nWithin the SVG DOM, a <coordinate> is represented as an SVGLength or an SVGAnimatedLength."
+    usedIn:
+      - circle
+      - ellipse
+      - radialGradient
+  cy:
+    description: "For the <circle> and the <ellipse> element, this attribute define the y-axis coordinate of the center of the element. If the attribute is not specified, the effect is as if a value of '0' were specified.\nFor the <radialGradient> element, this attribute define the y-axis coordinate of the largest (i.e., outermost) circle for the radial gradient. The gradient will be drawn such that the 100% gradient stop is mapped to the perimeter of this largest (i.e., outermost) circle. If the attribute is not specified, the effect is as if a value of 50% were specified."
+    values:
+      coordinate: "A <coordinate> is a length in the user coordinate system that is the given distance from the origin of the user coordinate system along the relevant axis (the x-axis for X coordinates, the y-axis for Y coordinates). Its syntax is the same as that for <length>.\nWithin the SVG DOM, a <coordinate> is represented as an SVGLength or an SVGAnimatedLength."
+    usedIn:
+      - circle
+      - ellipse
+      - radialGradient
+  d:
+    description: 'SEE: PATHDEFS'
+    values:
+      SEE: PATHDEFS
+    usedIn:
+      - SEE
+      - PATHDEFS
+  diffuseConstant:
+    description: "The diffuseConstant attribute represant the kd value in the Phong lighting model. In SVG, this can be any non-negative number.\nIf the attribute is not specified, then the effect is as if a value of 1 were specified."
+    values:
+      number: '<number>'
+    usedIn:
+      - feDiffuseLighting
+  direction:
+    description: "The direction attribute specifies the base writing direction of text and the direction of embeddings and overrides (see unicode-bidi) for the Unicode bidirectional algorithm. For the direction attribute to have any effect on an element that does not by itself establish a new text chunk (such as a <tspan> element without absolute position adjustments due to x or y attributes), the unicode-bidi property's value must be embed or bidi-override.\nThe direction attribute applies only to glyphs oriented perpendicular to the inline-progression-direction, which includes the usual case of horizontally-oriented Latin or Arabic text and the case of narrow-cell Latin or Arabic characters rotated 90 degrees clockwise relative to a top-to-bottom inline-progression-direction.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css direction for further information."
+    values:
+      ltr: null
+      rtl: null
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  display:
+    description: "The display attribute lets you control the rendering of graphical or container elements.\nA value of display=\"none\" indicates that the given element and its children will not be rendered. Any value other than none or inherit indicates that the given element will be rendered by the browser.\nWhen applied to a container element, setting display to none causes the container and all of its children to be invisible; thus, it acts on groups of elements as a group. This means that any child of an element with display=\"none\" will never be rendered even if the child has a value for display other than none.\nWhen the display attribute is set to none, then the given element does not become part of the rendering tree. It has implications for the <tspan>, <tref>, and <altGlyph> elements, event processing, for bounding box calculations and for calculation of clipping paths:\nIf display is set to none on a <tspan>, <tref>, or <altGlyph> element, then the text string is ignored for the purposes of text layout\nRegarding events, if display is set to none, the element receives no events\nThe geometry of a graphics element with display set to none is not included in bounding box and clipping paths calculations.\nThe display attribute only affects the direct rendering of a given element, whereas it does not prevent elements from being referenced by other elements. For example, setting display: none on a <path> element will prevent that element from getting rendered directly onto the canvas, but the <path> element can still be referenced by a <textPath> element; furthermore, its geometry will be used in text-on-a-path processing even if the <path> has display: none.\nThe display attribute also affects direct rendering into offscreen canvases, such as occurs with masks or clip paths. Thus, setting display: none on a child of a <mask> will prevent the given child element from being rendered as part of the mask. Similarly, setting display: none on a child of a <clipPath> element will prevent the given child element from contributing to the clipping path.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet; see css display for further information."
+    values:
+      inline: null
+      block: null
+      list-item: null
+      run-in: null
+      compact: null
+      marker: null
+      table: null
+      inline-table: null
+      table-row-group: null
+      table-header-group: null
+      table-footer-group: null
+      table-row: null
+      table-column-group: null
+      table-column: null
+      table-cell: null
+      table-caption: null
+      none: null
+      inherit: null
+    usedIn:
+      - 'Graphics elements'
+      - 'Text content elements'
+      - svg
+      - g
+      - switch
+      - a
+      - foreignObject
+  divisor:
+    description: "After applying the kernelMatrix of the <feConvolveMatrix> element to the input image to yield a number, that number is divided by the value given to the divisor attribute to yield the final destination color value. A divisor that is the sum of all the matrix values tends to have an evening effect on the overall color intensity of the result.\nThe default value is the sum of all values in kernelMatrix, with the exception that if the sum is zero, then the divisor is set to 1.\nIt is an error to specify a divisor of zero."
+    values:
+      number: '<number>'
+    usedIn:
+      - feConvolveMatrix
+  dominant-baseline:
+    description: "The dominant-baseline attribute is used to determine or re-determine a scaled-baseline-table. A scaled-baseline-table is a compound value with three components: a baseline-identifier for the dominant-baseline, a baseline-table and a baseline-table font-size. Some values of the property re-determine all three values; other only re-establish the baseline-table font-size. When the initial value, auto, would give an undesired result, this property can be used to explicitly set the desire scaled-baseline-table.\nIf there is no baseline table in the nominal font or if the baseline table lacks an entry for the desired baseline, then the browser may use heuristics to determine the position of the desired baseline.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css dominant-baseline for further information."
+    values:
+      auto: "If this property occurs on a <text> element, then the computed value depends on the value of the writing-mode attribute. If the writing-mode is horizontal, then the value of the dominant-baseline component is alphabetic, else if the writing-mode is vertical, then the value of the dominant-baseline component is central.\nIf this property occurs on a <tspan>, <tref>, <altGlyph> or <textPath> element, then the dominant-baseline and the baseline-table components remain the same as those of the parent text content element. If the computed baseline-shift value actually shifts the baseline, then the baseline-table font-size component is set to the value of the font-size attribute on the element on which the dominant-baseline attribute occurs, otherwise the baseline-table font-size remains the same as that of the element. If there is no parent text content element, the scaled-baseline-table value is constructed as above for <text> elements."
+      use-script: 'The dominant-baseline and the baseline-table components are set by determining the predominant script of the character data content. The writing-mode, whether horizontal or vertical, is used to select the appropriate set of baseline-tables and the dominant baseline is used to select the baseline-table that corresponds to that baseline. The baseline-table font-size component is set to the value of the font-size attribute on the element on which the dominant-baseline attribute occurs.'
+      no-change: 'The dominant-baseline, the baseline-table, and the baseline-table font-size remain the same as that of the parent text content element.'
+      reset-size: 'The dominant-baseline and the baseline-table remain the same, but the baseline-table font-size is changed to the value of the font-size attribute on this element. This re-scales the baseline-table for the current font-size.'
+      ideographic: 'The baseline-identifier for the dominant-baseline is set to be ideographic, the derived baseline-table is constructed using the ideographic baseline-table in the font, and the baseline-table font-size is changed to the value of the font-size attribute on this element.'
+      alphabetic: 'The baseline-identifier for the dominant-baseline is set to be alphabetic, the derived baseline-table is constructed using the alphabetic baseline-table in the font, and the baseline-table font-size is changed to the value of the font-size attribute on this element.'
+      hanging: 'The baseline-identifier for the dominant-baseline is set to be hanging, the derived baseline-table is constructed using the hanging baseline-table in the font, and the baseline-table font-size is changed to the value of the font-size attribute on this element.'
+      mathematical: 'The baseline-identifier for the dominant-baseline is set to be mathematical, the derived baseline-table is constructed using the mathematical baseline-table in the font, and the baseline-table font-size is changed to the value of the font-size attribute on this element.'
+      central: 'The baseline-identifier for the dominant-baseline is set to be central. The derived baseline-table is constructed from the defined baselines in a baseline-table in the font. That font baseline-table is chosen using the following priority order of baseline-table names: ideographic, alphabetic, hanging, mathematical. The baseline-table font-size is changed to the value of the font-size attribute on this element.'
+      middle: 'The baseline-identifier for the dominant-baseline is set to be middle. The derived baseline-table is constructed from the defined baselines in a baseline-table in the font. That font baseline-table is chosen using the following priority order of baseline-table names: alphabetic, ideographic, hanging, mathematical. The baseline-table font-size is changed to the value of the font-size attribute on this element.'
+      text-after-edge: 'The baseline-identifier for the dominant-baseline is set to be text-after-edge. The derived baseline-table is constructed from the defined baselines in a baseline-table in the font. The choice of which font baseline-table to use from the baseline-tables in the font is browser dependent. The baseline-table font-size is changed to the value of the font-size attribute on this element.'
+      text-before-edge: 'The baseline-identifier for the dominant-baseline is set to be text-before-edge. The derived baseline-table is constructed from the defined baselines in a baseline-table in the font. The choice of which baseline-table to use from the baseline-tables in the font is browser dependent. The baseline-table font-size is changed to the value of the font-size attribute on this element.'
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  dur:
+    description: 'This attribute indicates the simple duration of the animation.'
+    values:
+      clock-value: '<clock-value> Specifies the length of the simple duration. Value must be greater than 0. This value can be expressed with hours (h), minutes (m), seconds (s) or milliseconds (ms). It''s possible to combine those time representation to provide some complex durations like this: hh:mm:ss.iii or like this: mm:ss.iii'
+      indefinite: indefinite
+      NOTE: 'If the animation does not have a dur attribute, the simple duration is indefinite. Note that interpolation will not work if the simple duration is indefinite (although this may still be useful for <set> elements).'
+    usedIn:
+      - 'Animation elements'
+  dx:
+    description: "The dx attribute indicates a shift along the x-axis on the position of an element or its content. What exactly is shifted depends on the element for which this attribute is set.\nFor the <feOffset> element, it's a <number> that represents the amount to offset the input graphic. This amount is expressed in the coordinate system established by the primitiveUnits attribute on the <filter> element.\nFor the <glyphRef> element, it's a <number> that represents the relative X coordinate within the font's coordinate system for this glyph.\nFor <text>, <tspan>, <tref>, and <altGlyph> elements, things are a little more complex because they accept a <list-of-length>:\nIf a single <length> is provided, this value represents the new relative X coordinate for the current text position for the first character within this element or any of its descendents. The current text position is shifted along the x-axis of the current user coordinate system by <length> before the first character is rendered.\nIf a comma- or space-separated list of n <length>s is provided, then the values represent incremental shifts along the x-axis for the current text position of the first n characters within this element or any of its descendents. Thus the current text position resulting from drawing the character within the current <text> element is shifted along the X axis of the current user coordinate system by <length>.\nIf more characters exist than <length>s, then for each of these extra characters:\nif an ancestor <text> or <tspan> element specifies a relative X coordinate for the given character via a dx attribute, then the current text position is shifted along the x-axis of the current user coordinate system by that amount (nearest ancestor has precedence),\nelse no extra shift along the x-axis occurs."
+    values:
+      number: '<number>'
+      list-of-length: '<list-of-length>'
+    usedIn:
+      - altGlyph
+      - feOffset
+      - glyphRef
+      - text
+      - tref
+      - tspan
+  dy:
+    description: "The dy attribute indicates a shift along the y-axis on the position of an element or its content. What exactly is shifted depends on the element for which this attribute is set.\nFor the <feOffset> element, it's a <number> that represents the amount to offset the input graphic. This amount is expressed in the coordinate system established by the primitiveUnits attribute on the <filter> element.\nFor the <glyphRef> element, it's a <number> that represents the relative Y coordinate within the font's coordinate system for this glyph.\nFor <text>, <tspan>, <tref>, and <altGlyph> elements, things are a little more complex because they accept a <list-of-length>:\nIf a single <length> is provided, this value represents the new relative Y coordinate for the current text position for the first character within this element or any of its descendents. The current text position is shifted along the y-axis of the current user coordinate system by <length> before the first character is rendered.\nIf a comma- or space-separated list of n <length>s is provided, then the values represent incremental shifts along the y-axis for the current text position of the first n characters within this element or any of its descendents. Thus the current text position resulting from drawing the character within the current <text> element is shifted along the Y axis of the current user coordinate system by <length>.\nIf more characters exist than <length>s, then for each of these extra characters:\nif an ancestor <text> or <tspan> element specifies a relative Y coordinate for the given character via a dy attribute, then the current text position is shifted along the y-axis of the current user coordinate system by that amount (nearest ancestor has precedence),\nelse no extra shift along the y-axis occurs."
+    values:
+      number: '<number>'
+      list-of-length: '<list-of-length>'
+    usedIn:
+      - altGlyph
+      - feOffset
+      - glyphRef
+      - text
+      - tref
+      - tspan
+  edgeMode:
+    description: "The edgeMode attribute determines how to extend the input image as necessary with color values so that the matrix operations can be applied when the kernel is positioned at or near the edge of the input image.\nIf attribute edgeMode is not specified, then the effect is as if a value of duplicate were specified."
+    values:
+      duplicate: 'It indicates that the input image is extended along each of its borders as necessary by duplicating the color values at the given edge of the input image.'
+      wrap: 'It indicates that the input image is extended by taking the color values from the opposite edge of the image.'
+      none: 'It indicates that the input image is extended with pixel values of zero for R, G, B and A.'
+    usedIn:
+      - feConvolveMatrix
+      - feGaussianBlur
+  elevation:
+    description: "The elevation attribute represent the direction angle for the light source from the XY plane towards the z axis, in degrees. Note the positive Z-axis points towards the viewer of the content.\nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number: '<number>'
+    usedIn:
+      - feDistantLight
+  end:
+    description: "This attribute defines an end value for the animation that can constrain the active duration.\nThe attribute value is a semicolon separated list of values. Each individual value can be of the same type as the ones defined for the begin attribute."
+    values:
+      End-value-list: '<end-value-list>'
+    usedIn:
+      - 'Animation elements'
+  externalResourcesRequired:
+    description: "Documents often reference and use the contents of other files (and other Web resources) as part of their rendering. In some cases, authors want to specify that particular resources are required for a document to be considered correct.\nThe externalResourcesRequired attribute is available on all container elements and to all elements which potentially can reference external resources. It specifies whether referenced resources that are not part of the current document are required for proper rendering of the given container element or graphics element.\nThis attribute applies to all types of resource references, including style sheets, color profiles and fonts specified by a reference using a <font-face> element or a CSS @font-face specification. In particular, if an element sets externalResourcesRequired=\"true\", then all style sheets must be available since any style sheet might affect the rendering of that element.\nThe externalResourcesRequired attribute is not inheritable (from a sense of attribute value inheritance), but if set on a container element, its value will apply to all elements within the container.\nBecause setting externalResourcesRequired=\"true\" on a container element will have the effect of disabling progressive display of the contents of that container, if that container includes elements that reference external resources, authors should avoid simply setting externalResourcesRequired=\"true\" on the outermost svg element on a universal basis. Instead, it is better to specify externalResourcesRequired=\"true\" on those particular graphics elements or container elements which specifically need the availability of external resources in order to render properly."
+    values:
+      'true': 'It indicates that resources external to the current document are required. If an external resource is not available, progressive rendering is suspended, the document''s SVGLoad event is not fired and the animation timeline does not begin until that resource and all other required resources become available, have been parsed and are ready to be rendered.'
+      'false': 'It indicates that resources external to the current document are optional. Document rendering can proceed even if external resources are unavailable to the current element and its descendants. This is the default value.'
+    usedIn:
+      - 'Animation elements'
+      - 'Gradient elements'
+      - 'Grapnics elements'
+      - 'Text content elements'
+      - 'Structural elements'
+      - a
+      - clipPath
+      - cursor
+      - feImage
+      - filter
+      - font
+      - foreignObject
+      - marker
+      - mask
+      - mpath
+      - pattern
+      - script
+      - switch
+      - view
+  fill:
+    description: "The fill attribute has two meanings based on the context it's used.\nBy default, when animation elements end their effects are no longer applied to the presentation value for the target attributes. The fill attribute can be used to maintain the value of an animation after the active duration of an animation element ends.\nFor shapes and text, the fill attribute is a presentation attribute that define the color of the interior of the given graphical element. What is called the \"interior\" depends on the shape itself and the value of the fill-rule attribute. As a presentation attribute, it also can be used as a property directly inside a CSS stylesheet"
+    values:
+      remove-anim: 'The animation effect is removed (no longer applied) when the active duration of the animation is over. After the active end of the animation, the animation no longer affects the target (unless the animation is restarted).'
+      freeze-anim: 'The animation effect is "frozen" when the active duration of the animation is over for the remainder of the document duration (or until the animation is restarted).'
+      'paint-s&t': '<paint>'
+      'context-fill-s&t': 'context-fill (?)'
+      'context-stroke-s&t': 'context-stroke (?)'
+    usedIn:
+      - 'animation elements'
+      - 'shapes and text'
+  fill-opacity:
+    description: 'This attribute specifies the opacity of the color or the content the current object is filled with.'
+    values:
+      opacity-value: '<opacity-value>'
+      inherit: null
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  fill-rule:
+    description: 'The fill-rule attribute indicates how to determine what side of a path is inside a shape, to determine how the fill property paints the shape. For a simple, non-intersecting path, it is intuitively clear what region lies "inside"; however, for a more complex path, such as a path that intersects itself or where one subpath encloses another, the interpretation of "inside" is not so obvious.'
+    values:
+      nonzero: 'This value determines the "insideness" of a point in the shape by drawing a ray from that point to infinity in any direction and then examining the places where a segment of the shape crosses the ray. Starting with a count of zero, add one each time a path segment crosses the ray from left to right and subtract one each time a path segment crosses the ray from right to left. After counting the crossings, if the result is zero then the point is outside the path. Otherwise, it is inside.'
+      evenodd: 'This value determines the "insideness" of a point in the shape by drawing a ray from that point to infinity in any direction and counting the number of path segments from the given shape that the ray crosses. If this number is odd, the point is inside; if even, the point is outside.'
+      inherit: null
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  filter:
+    description: "The filter attribute defines the filter effects defined by the <filter> element that shall be applied to its element.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet. See css filter for further information."
+    values:
+      funciri: '<funciri> A reference to a <filter> element which defines the filter effects that shall be applied to its element.'
+      none: 'do not apply any filter effects to its element'
+      usedIn: ['Graphic elements', a, defs, glyph, g, marker, missing-glyph, pattern, svg, switch, symbol]
+  filterRes:
+    description: OBSOLETE
+    values:
+      OBSOLETE: 'THIS IS OBSOLETE'
+    usedIn:
+      - 'LOOK IT UP IT''S OBSOLETE I SWEAR'
+  filterUnits:
+    description: "The filterUnits attribute defines the coordinate system for attributes x, y, width and height.\nIf the filterUnits attribute isn't specified, then the effect is as if a value of objectBoundingBox were specified."
+    values:
+      userSpaceOnUse: 'x, y, width and height represent values in the current coordinate system that results from taking the current user coordinate system in place at the time when the <filter> element is referenced (i.e., the user coordinate system for the element referencing the <filter> element via a filter attribute).'
+      objectBoundingBox: 'In that case, x, y, width and height represent fractions or percentages of the bounding box on the referencing element.'
+    usedIn:
+      - filter
+  flood-color:
+    description: 'The flood-color attribute indicates what color to use to flood the current filter primitive subregion defined through the <feFlood> element. The keyword currentColor and ICC colors can be specified in the same manner as within a <paint> specification for the fill and stroke attributes.'
+    values:
+      currentColor: null
+      color: '<color>'
+      icccolor: '<icccolor>'
+      inherit: null
+    usedIn:
+      - feFlood
+  flood-opacity:
+    description: 'The flood-opacity attribute indicates the opacity value to use across the current filter primitive subregion defined through the <feFlood> element.'
+    values:
+      opacity-value: '<opacity-value>'
+      inherit: null
+    usedIn:
+      - feFlood
+  font-family:
+    description: "The font-family attribute indicates which font family will be used to render the text, specified as a prioritized list of font family names and/or generic family names.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css font-family for further information."
+    values:
+      fonts: 'same as css stuff - [[<family-name> | <generic-family>],]* [<family-name> | <generic-family>]'
+      initial: null
+    usedIn:
+      - 'Text content elements'
+  font-size:
+    description: "The font-size attribute refers to the size of the font from baseline to baseline when multiple lines of text are set solid in a multiline layout environment. For SVG, if a <length> is provided without a unit identifier (e.g., an unqualified number such as 128), the browser processes the <length> as a height value in the current user coordinate system.\nIf a <length> is provided with one of the unit identifiers (e.g., 12pt or 10%), then the browser converts the <length> into a corresponding value in the current user coordinate system\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css font-size for further information."
+    values:
+      absolute-size: '<absoulte-size>'
+      relative-size: '<relative-size>'
+      length: '<length>'
+      percentage: '<percentage>'
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  font-size-adjust:
+    description: "The font-size-adjust attribute allows authors to specify an aspect value for an element that will preserve the x-height of the first choice font in a substitute font.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css font-size-adjust for further information."
+    values:
+      number: '<number>'
+      none: none
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  font-stretch:
+    description: "The font-stretch attribute indicates the desired amount of condensing or expansion in the glyphs used to render the text.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css font-stretch for further information."
+    values:
+      normal: null
+      wider: null
+      narrower: null
+      ultra-condensed: null
+      extra-condensed: null
+      condensed: null
+      semi-condensed: null
+      semi-expanded: null
+      expanded: null
+      extra-expanded: null
+      ultra-expanded: null
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  font-style:
+    description: "The font-style attribute specifies whether the text is to be rendered using a normal, italic or oblique face.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css font-style for further information."
+    values:
+      normal: null
+      italic: null
+      oblique: null
+      inherit: null
+    usedIn:
+      - 'Text container elements'
+  font-variant:
+    description: "The font-variant attribute indicates whether the text is to be rendered using the normal glyphs for lowercase characters or using small-caps glyphs for lowercase characters.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css font-variant for further information."
+    values:
+      normal: null
+      small-caps: null
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  font-weight:
+    description: "The font-weight attribute refers to the boldness or lightness of the glyphs used to render the text, relative to other fonts in the same font family.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css font-weight for further information."
+    values:
+      '100': null
+      '200': null
+      '300': null
+      '400': null
+      '500': null
+      '600': null
+      '700': null
+      '800': null
+      '900': null
+      normal: null
+      bold: null
+      bolder: null
+      lighter: null
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  fr:
+    description: 'For the <radialGradient> element, this attribute define the radius of the focal point for the radial gradient. If the attribute is not specified, the default value of 0% is used.'
+    values:
+      length: '<length>'
+    usedIn:
+      - radialGradient
+  from:
+    description: 'This attribute indicates the initial value of the attribute that will be modified during the animation. When used with the to attribute, the animation will change the modified attribute from the from value to the to value. '
+    values:
+      value: '<value> The exact value type for this attribute depend on the value of the attribute that will be animated.'
+    usedIn:
+      - animate
+      - animateColor
+      - animateMotion
+      - animateTransform
+  fx:
+    description: 'For the <radialGradient> element, this attribute define the x-axis coordinate of the focal point for radial gradient. If the attribute is not specified, it''s assumed to be at the same place as the center point.'
+    values:
+      coordinate: "A <coordinate> is a length in the user coordinate system that is the given distance from the origin of the user coordinate system along the relevant axis (the x-axis for X coordinates, the y-axis for Y coordinates). Its syntax is the same as that for <length>.\nWithin the SVG DOM, a <coordinate> is represented as an SVGLength or an SVGAnimatedLength."
+    usedIn:
+      - radialGradient
+  fy:
+    description: 'For the <radialGradient> element, this attribute defines the y-axis coordinate of the focal point for the radial gradient. If the attribute is not specified, it''s assumed to be at the same place as the center point.'
+    values:
+      coordinate: "A <coordinate> is a length in the user coordinate system that is the given distance from the origin of the user coordinate system along the relevant axis (the x-axis for X coordinates, the y-axis for Y coordinates). Its syntax is the same as that for <length>.\nWithin the SVG DOM, a <coordinate> is represented as an SVGLength or an SVGAnimatedLength."
+    usedIn:
+      - radialGradient
+  gradientTransform:
+    description: "The gradientTransform attribute contains the definition of an optional additional transformation from the gradient coordinate system onto the target coordinate system (i.e., userSpaceOnUse or objectBoundingBox). This allows for things such as skewing the gradient. This additional transformation matrix is post-multiplied to (i.e., inserted to the right of) any previously defined transformations, including the implicit transformation necessary to convert from object bounding box units to user space.\nIf attribute gradientTransform is not specified, then the effect is as if an identity transform were specified."
+    values:
+      transform-list: '<transform-list>'
+    usedIn:
+      - linearGradient
+      - radialGradient
+  gradientUnits:
+    description: "The gradientUnits attribute defines the coordinate system for attributes x1, y1, x2 and y2 on the <linearGradient> element or for attributes cx, cy, r, fx, and fy on the <radialGradient>.\nIf the gradientUnits attribute isn't specified, then the effect is as if a value of objectBoundingBox were specified."
+    values:
+      userSpaceOnUse: 'x1, y1, x2, y2, cx, cy, r, fx and fy represent values in the coordinate system that results from taking the current user coordinate system in place at the time when the gradient element is referenced (i.e., the user coordinate system for the element referencing the gradient element via a fill or stroke property) and then applying the transform specified by attribute gradientTransform.'
+      objectBoundingBox: "for <linearGradient>: the user coordinate system for attributes x1, y1, x2 and y2 is established using the bounding box of the element to which the gradient is applied (see Object bounding box units) and then applying the transform specified by attribute gradientTransform.\nWhen gradientUnits=\"objectBoundingBox\" and gradientTransform is the identity matrix, the normal of the linear gradient is perpendicular to the gradient vector in object bounding box space (i.e., the abstract coordinate system where (0,0) is at the top/left of the object bounding box and (1,1) is at the bottom/right of the object bounding box). When the object's bounding box is not square, the gradient normal which is initially perpendicular to the gradient vector within object bounding box space may render non-perpendicular relative to the gradient vector in user space. If the gradient vector is parallel to one of the axes of the bounding box, the gradient normal will remain perpendicular. This transformation is due to application of the non-uniform scaling transformation from bounding box space to user space.\nfor <radialGradient>: the user coordinate system for attributes cx, cy, r, fx and fy is established using the bounding box of the element to which the gradient is applied (see Object bounding box units) and then applying the transform specified by attribute gradientTransform.\n      When gradientUnits=\"objectBoundingBox\" and gradientTransform is the identity matrix, then the rings of the radial gradient are circular with respect to the object bounding box space (i.e., the abstract coordinate system where (0,0) is at the top/left of the object bounding box and (1,1) is at the bottom/right of the object bounding box). When the object's bounding box is not square, the rings that are conceptually circular within object bounding box space will render as elliptical due to application of the non-uniform scaling transformation from bounding box space to user space."
+    usedIn:
+      - linearGradient
+      - radialGradient
+  height:
+    description: "This attribute indicates a vertical length in the user coordinate system. The exact effect of this coordinate depends on each element. Most of the time, it represents the height of the rectangular region of the reference element (see each individual element's documentation for exceptions).\nThis attribute must be specified except for the <svg> element where the default value is 100% and the <filter> and <mask> elements where the default value is 120%."
+    values:
+      length: '<length>'
+    usedIn:
+      - 'Filter primitive elements'
+      - filter
+      - foreignObject
+      - image
+      - pattern
+      - rect
+      - svg
+      - use
+      - mask
+  href:
+    description: "The href attribute defines a link to a resource as a reference URL. The exact meaning of that link depends on the context of each element using it.\n...Note: Specifications before SVG 2 defined an xlink:href attribute, which is now rendered obsolete by the href attribute."
+    values:
+      URL: url
+    usedIn:
+      - 'Animation elements'
+      - 'Gradient elements'
+      - a
+      - cursor
+      - discard
+      - feImage
+      - hatch
+      - image
+      - mesh
+      - meshgradient
+      - mpath
+      - pattern
+      - script
+      - textPath
+      - use
+  image-rendering:
+    description: "The image-rendering attribute provides a hint to the browser about how to make speed vs. quality tradeoffs as it performs image processing.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css image-rendering for further information"
+    values:
+      auto: 'Indicates that the user agent shall make appropriate tradeoffs to balance speed and quality, but quality shall be given more importance than speed.'
+      optomizeSpeed: 'Indicates that the user agent shall emphasize rendering speed over quality.'
+      optomizeQuality: 'Indicates that the user agent shall emphasize quality over rendering speed.'
+      inherit: null
+    usedIn:
+      - image
+  in:
+    description: "The in attribute identifies input for the given filter primitive.\nThe value can be either one of the six keywords defined below, or a string which matches a previous result attribute value within the same <filter> element. If no value is provided and this is the first filter primitive, then this filter primitive will use SourceGraphic as its input. If no value is provided and this is a subsequent filter primitive, then this filter primitive will use the result from the previous filter primitive as its input.\nIf the value for result appears multiple times within a given <filter> element, then a reference to that result will use the closest preceding filter primitive with the given value for attribute result."
+    values:
+      SourceGraphic: 'This keyword represents the graphics elements that were the original input into the <filter> element.'
+      SourceAplha: 'This keyword represents the graphics elements that were the original input into the <filter> element. SourceAlpha has all of the same rules as SourceGraphic except that only the alpha channel is used.'
+      BackgroundImage: 'This keyword represents an image snapshot of the SVG document under the filter region at the time that the <filter> element was invoked.'
+      BackgroundAlpha: 'Same as BackgroundImage except only the alpha channel is used.'
+      FillPaint: 'This keyword represents the value of the fill property on the target element for the filter effect. In many cases, the FillPaint is opaque everywhere, but it might not be the case if a shape is paint with a gradient or pattern which itself includes transparent or semi-transparent parts.'
+      StrokePaint: 'This keyword represents the value of the stroke property on the target element for the filter effect. In many cases, the StrokePaint is opaque everywhere, but it might not be the case if a shape is paint with a gradient or pattern which itself includes transparent or semi-transparent parts.'
+      filter-primitive-reference: '<filter-primitive-reference>'
+    usedIn:
+      - feBlend
+      - feColorMatrix
+      - feComponentTransfer
+      - feComposite
+      - feConvolveMatrix
+      - feDiffuseLighting
+      - feDisplacementMap
+      - feGaussianBlur
+      - feMorphology
+      - feOffset
+      - feSpecularLighting
+      - feTile
+  in2:
+    description: 'The in2 attribute identifies the second input for the given filter primitive. It works exactly like the in attribute.'
+    values:
+      SourceGraphic: 'This keyword represents the graphics elements that were the original input into the <filter> element.'
+      SourceAplha: 'This keyword represents the graphics elements that were the original input into the <filter> element. SourceAlpha has all of the same rules as SourceGraphic except that only the alpha channel is used.'
+      BackgroundImage: 'This keyword represents an image snapshot of the SVG document under the filter region at the time that the <filter> element was invoked.'
+      BackgroundAlpha: 'Same as BackgroundImage except only the alpha channel is used.'
+      FillPaint: 'This keyword represents the value of the fill property on the target element for the filter effect. In many cases, the FillPaint is opaque everywhere, but it might not be the case if a shape is paint with a gradient or pattern which itself includes transparent or semi-transparent parts.'
+      StrokePaint: 'This keyword represents the value of the stroke property on the target element for the filter effect. In many cases, the StrokePaint is opaque everywhere, but it might not be the case if a shape is paint with a gradient or pattern which itself includes transparent or semi-transparent parts.'
+      filter-primitive-reference: '<filter-primitive-reference>'
+    usedIn:
+      - feBlend
+      - feComposite
+      - feDisplacementMap
+  k1:
+    description: "The k1 attribute defines one of the value to be used within the the arithmetic operation of the <feComposite> filter primitive. If this attribute is not set, its default value is 0.\nThe pixel composition is computed using the following formula:\nresult = k1*i1*i2 + k2*i1 + k3*i2 + k4"
+    values:
+      number: '<number>'
+    usedIn:
+      - feComposite
+  k2:
+    description: "The k2 attribute defines one of the value to be used within the the arithmetic operation of the <feComposite> filter primitive. If this attribute is not set, its default value is 0.\nThe pixel composition is computed using the following formula:\nresult = k1*i1*i2 + k2*i1 + k3*i2 + k4"
+    values:
+      number: '<number>'
+    usedIn:
+      - feComposite
+  k3:
+    description: "The k3 attribute defines one of the value to be used within the the arithmetic operation of the <feComposite> filter primitive. If this attribute is not set, its default value is 0.\nThe pixel composition is computed using the following formula:\nresult = k1*i1*i2 + k2*i1 + k3*i2 + k4"
+    values:
+      number: '<number>'
+    usedIn:
+      - feComposite
+  k4:
+    description: "The k4 attribute defines one of the value to be used within the the arithmetic operation of the <feComposite> filter primitive. If this attribute is not set, its default value is 0.\nThe pixel composition is computed using the following formula:\nresult = k1*i1*i2 + k2*i1 + k3*i2 + k4"
+    values:
+      number: '<number>'
+    usedIn:
+      - feComposite
+  kernelMatrix:
+    description: 'the kernelMatrix attribute defines the list of <number>s that make up the kernel matrix for the <feConvolveMatrix> element. Values are separated by space characters and/or a comma. The number of entries in the list must equal to <orderX> by <orderY> as defined in the order attribute.'
+    values:
+      list-of-number: '<list of number>'
+    usedIn:
+      - feConvolveMatrix
+  kernelUnitLength:
+    description: "The kernelUnitLength attribute has two meaning based on the context it's used.\nThe first number is the <dx> value. The second number is the <dy> value. If the <dy> value is not specified, it defaults to the same value as <dx>.\nFor lighting filter primitives, it Indicates the intended distance in current filter units (i.e., units as determined by the value of attribute primitiveUnits) for dx and dy, respectively, in the surface normal calculation formulas.\nFor the <feConvolveMatrix> primitive, it indicates the intended distance in current filter units (i.e., units as determined by the value of attribute primitiveUnits) between successive columns and rows, respectively, in the kernelMatrix.\nBy specifying value(s) for kernelUnitLength, the kernel becomes defined in a scalable, abstract coordinate system.\nIf kernelUnitLength is not specified, in many cases it is define as one pixel in the intermediate image offscreen bitmap, which is a pixel-based coordinate system, and thus potentially not scalable which can have serious visual impact on SVG content."
+    values:
+      number-optional-number: '<number-optional-number>'
+    usedIn:
+      - feConvolveMatrix
+      - feDiffuseLighting
+      - feSpecularLighting
+  kerning:
+    description: "The kerning attribute indicates whether the browser should adjust inter-glyph spacing based on kerning tables that are included in the relevant font (i.e., enable auto-kerning) or instead disable auto-kerning and instead set inter-character spacing to a specific length (typically, zero).\nThe value of auto indicates that the user agent should adjust inter-glyph spacing based on kerning tables that are included in the font that will be used.\nIf a <length> is provided, then auto-kerning is disabled. Instead, inter-character spacing is set to the given <length>. The most common scenario, other than auto, is to set kerning to a value of 0 so that auto-kerning is disabled.\nIf a <length> is provided without a unit identifier (e.g., an unqualified number such as 128), the browser processes the <length> as a width value in the current user coordinate system.\nIf a <length> is provided with a unit identifier (e.g., .25em or 1%), then the browser converts the <length> into a corresponding value in the current user coordinate system.\nWhen a <length> is provided, its value is added to the inter-character spacing value specified by the letter-spacing attribute.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css kerning for further information."
+    values:
+      auto: null
+      length: '<length> see: http://devdocs.io/svg/attribute/kerning'
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  keySplines:
+    description: "The keySplines attribute defines a set of Bézier control points associated with the keyTimes list, defining a cubic Bézier function that controls interval pacing. The attribute value is a semicolon-separated list of control point descriptions. Each control point description is a set of four values: x1 y1 x2 y2, describing the Bézier control points for one time segment. The keyTimes values that define the associated segment are the Bézier \"anchor points\", and the keySplines values are the control points. Thus, there must be one fewer sets of control points than there are keyTimes.\nThe values of x1 y1 x2 y2 must all be in the range 0 to 1.\nThis attribute is ignored unless the calcMode is set to spline.\nIf there are any errors in the keySplines specification (bad values, too many or too few values), the animation will not occur."
+    values:
+      list: '<list>'
+    usedIn:
+      - animate
+      - animateColor
+      - animateMotion
+      - animateTransform
+  keyTimes:
+    description: "The keyTimes attribute is a semicolon-separated list of time values used to control the pacing of the animation. Each time in the list corresponds to a value in the values attribute list, and defines when the value is used in the animation. Each time value in the keyTimes list is specified as a floating point value between 0 and 1 (inclusive), representing a proportional offset into the duration of the animation element. \nIf a list of keyTimes is specified, there must be exactly as many values in the keyTimes list as in the values list. \nEach successive time value must be greater than or equal to the preceding time value. \nThe keyTimes list semantics depends upon the interpolation mode: \nFor linear and spline animation, the first time value in the list must be 0, and the last time value in the list must be 1. The key time associated with each value defines when the value is set; values are interpolated between the key times.\nFor discrete animation, the first time value in the list must be 0. The time associated with each value defines when the value is set; the animation function uses that value until the next time defined in keyTimes.\nIf the interpolation mode is paced, the keyTimes attribute is ignored. \nIf the duration is indefinite, any keyTimes specification will be ignored."
+    values:
+      list: '<list>'
+    usedIn:
+      - animate
+      - animateColor
+      - animateMotion
+      - animateTransform
+  lengthAdjust:
+    description: "When an SVG <text>or <tspan> element has a specific length, set using the textLength attribute, the lengthAdjust attribute controls how the text is stretched or compressed into that length. \nThe two possible values for the attribute are spacing and spacingAndGlyphs. Using spacing (the default), the letter forms are preserved, but the space between them grows or shrinks. Using spacingAndGlyphs, the entire text element is stretched in the direction of the text."
+    values:
+      nothing: 'was found when i looked ...'
+    usedIn:
+      - rip
+  letter-spacing:
+    description: "The letter-spacing attribute controls spacing between text characters, in addition to any spacing from the kerning attribute. \nFor SVG, if the attribute value is a unitless number (like 128), the browser processes it as a <length> in the current user coordinate system. \nIf the attribute value has a unit identifier, such as .25em or 1%, then the browser converts the <length> into its corresponding value in the current user coordinate system. \nAs a presentation attribute, it also can be used as a property in CSS. See css letter-spacing for further information."
+    values:
+      normal: null
+      length: '<length> see: http://devdocs.io/svg/attribute/letter-spacing'
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+      - text
+      - tspan
+  lighting-color:
+    description: 'The lighting-color attribute defines the color of the light source for filter primitives elements <feDiffuseLighting> and <feSpecularLighting>.'
+    values:
+      currentColor: null
+      color: '<color>'
+      icccolor: '<icccolor>'
+      inherit: null
+    usedIn:
+      - feDiffusseLighting
+      - feSpecularLighting
+  limitingConeAngle:
+    description: "The limitingConeAngle attribute represents the angle in degrees between the spot light axis (i.e. the axis between the light source and the point to which it is pointing at) and the spot light cone. So it defines a limiting cone which restricts the region where the light is projected. No light is projected outside the cone. \nIf no value is specified, then no limiting cone will be applied."
+    values:
+      number: '<number>'
+    usedIn:
+      - feSpotLight
+  local:
+    description: 'it seems there''s no description for what this does... weird'
+    values:
+      uhh: 'local = ''str'''
+    usedIn:
+      - idek
+  marker-end:
+    description: 'The marker-end defines the arrowhead or polymarker that will be drawn at the final vertex of the given <path> element or basic shape. Note that for a <path> element which ends with a closed sub-path, the last vertex is the same as the initial vertex on the given sub-path. In this case, if marker-end does not equal none, then it is possible that two markers will be rendered on the given vertex. One way to prevent this is to set marker-end to none. (Note that the same comment applies to <polygon> elements.)'
+    values:
+      none: 'Indicates that no marker symbol shall be drawn at the given vertex.'
+      funciri: 'The <funciri> is a Functional IRI reference to the <marker> element which shall be used as the arrowhead symbol or polymarker at the given vertex or vertices. If the IRI reference is not valid (e.g., it points to an object that is undefined or the object is not a <marker> element), then the marker(s) will not be drawn.'
+      inherit: null
+    usedIn:
+      - path
+      - line
+      - polyline
+      - polygon
+  marker-mid:
+    description: 'The marker-mid defines the arrowhead or polymarker that shall be drawn at every vertex other than the first and last vertex of the given <path> element or basic shape.'
+    values:
+      none: 'Indicates that no marker symbol shall be drawn at the given vertex.'
+      funciri: 'The <funciri> is a Functional IRI reference to the <marker> element which shall be used as the arrowhead symbol or polymarker at the given vertex or vertices. If the IRI reference is not valid (e.g., it points to an object that is undefined or the object is not a <marker> element), then the marker(s) will not be drawn.'
+      inherit: null
+    usedIn:
+      - path
+      - line
+      - polyline
+      - polygon
+  marker-start:
+    description: 'The marker-start attribute defines the arrowhead or polymarker that will be drawn at the first vertex of the given <path> element or basic shape.'
+    values:
+      none: 'Indicates that no marker symbol shall be drawn at the given vertex.'
+      funciri: 'The <funciri> is a Functional IRI reference to the <marker> element which shall be used as the arrowhead symbol or polymarker at the given vertex or vertices. If the IRI reference is not valid (e.g., it points to an object that is undefined or the object is not a <marker> element), then the marker(s) will not be drawn.'
+      inherit: null
+    usedIn:
+      - path
+      - line
+      - polyline
+      - polygon
+  markerHeight:
+    description: "The markerHeight represents the height of the viewport into which the <marker> is to be fitted when it is rendered. \nA value of zero disables rendering of the element. \nIf the attribute is not specified, the effect is as if a value of 3 were specified."
+    values:
+      length: '<length>'
+    usedIn:
+      - marker
+  markerUnits:
+    description: "The markerUnits attribute defines the coordinate system for the attributes markerWidth, markerHeight and the contents of the <marker>. \nIf the markerUnits attribute is not specified, then the effect is as if a value of strokeWidth were specified."
+    values:
+      userSpaceOnUse: 'markerWidth, markerHeight and the contents of the <marker> represent values in the current user coordinate system in place for the graphic object referencing the marker (i.e., the user coordinate system for the element referencing the <marker> element via a marker, marker-start, marker-mid or marker-end property).'
+      strokeWidth: 'markerWidth, markerHeight and the contents of the <marker> represent values in a coordinate system which has a single unit equal the size in user units of the current stroke width (see the stroke-width attribute) in place for the graphic object referencing the marker.'
+    usedIn:
+      - marker
+  markerWidth:
+    description: "The markerWidth represents the width of the viewport into which the <marker> is to be fitted when it is rendered. \nA value of zero disables rendering of the element. \nIf the attribute is not specified, the effect is as if a value of 3 were specified."
+    values:
+      length: '<length>'
+    usedIn:
+      - marker
+  mask:
+    description: "The mask attribute binds the element it is applied to with a given <mask> element. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet."
+    values:
+      FuncIRI: 'A reference to another graphical object within the same SVG document fragment which will be used as the mask. the syntax for this reference is the same as the css uri.'
+      none: null
+      inherit: null
+    usedIn:
+      - 'Container elements'
+      - 'Graphical elements'
+  maskContentUnits:
+    description: "The maskContentUnits attribute defines the coordinate system for the contents of the <mask>. \nIf the maskContentUnits attribute isn't specified, then the effect is as if a value of userSpaceOnUse were specified. \nNote that values defined as a percentage inside the content of the <mask> are not affected by this attribute. It means that even if you set the value of maskContentUnits to objectBoundingBox, percentage values will be calculated as if the value of the attribute were userSpaceOnUse."
+    values:
+      userSpaceOnUse: 'The user coordinate system for the contents of the <mask> element is the current user coordinate system in place at the time when the <mask> element is referenced (i.e., the user coordinate system for the element referencing the <mask> element via the mask property).'
+      objectBoundingBox: 'The user coordinate system for the contents of the <mask> is established using the bounding box of the element to which the mask is applied. A bounding box could be considered the same as if the content of the <mask> were bound to a "0 0 1 1" viewbox.'
+    usedIn:
+      - mask
+  maskUnits:
+    description: "The maskUnits attribute defines the coordinate system for attributes x, y, width and height. \nIf the maskUnits attribute isn't specified, then the effect is as if a value of objectBoundingBox were specified."
+    values:
+      userSpaceOnUse: 'x, y, width and height represent values in the current user coordinate system in place at the time when the <mask> element is referenced (i.e., the user coordinate system for the element referencing the <mask> element via the mask attribute).'
+      objectBoundingBox: 'x, y, width and height represent fractions or percentages of the bounding box of the element to which the mask is applied. A bounding box could be considered the same as if the content of the <mask> were bound to a "0 0 1 1" viewbox.'
+    usedIn:
+      - mask
+  max:
+    description: "The maskUnits attribute defines the coordinate system for attributes x, y, width and height. \nIf the maskUnits attribute isn't specified, then the effect is as if a value of objectBoundingBox were specified."
+    values:
+      clock-value: 'Specifies the length of the simple duration. Value must be greater than 0. This value can be express within hours (h), minutes (m), seconds (s) or milliseconds (ms). It''s possible to combine those time representation to provide some complex durations like this: hh:mm:ss.iii or like this: mm:ss.iii'
+    usedIn:
+      - 'Animation elements'
+  min:
+    description: "This attribute specifies the minimum value of the active duration. \nThe default value for min is 0. This does not constrain the active duration at all."
+    values:
+      clock-value: 'Specifies the length of the simple duration. Value must be greater than 0. This value can be express within hours (h), minutes (m), seconds (s) or milliseconds (ms). It''s possible to combine those time representation to provide some complex durations like this: hh:mm:ss.iii or like this: mm:ss.iii'
+    usedIn:
+      - 'Animation elements'
+  mode:
+    description: 'The mode attribute defines the blending mode on the <feBlend> filter primitive.'
+    values:
+      normal: null
+      multiply: null
+      screen: null
+      darken: null
+      lighten: null
+    usedIn:
+      - feBlend
+  numOctaves:
+    description: "The numOctaves parameter for the noise function of the <feTurbulence> primitive. \nIf the attribute is not specified, then the effect is as if a value of 1 were specified."
+    values:
+      integer: '<integer>'
+    usedIn:
+      - feTurbulence
+  opacity:
+    description: "The opacity attribute specifies the transparency of an object or of a group of objects, that is, the degree to which the background behind the element is overlaid. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css opacity for further information."
+    values:
+      opacity-value: 'The uniform opacity setting to be applied across an entire object, as a <number>. Any values outside the range 0.0 (fully transparent) to 1.0 (fully opaque) will be clamped to this range.'
+      inherit: null
+    usedIn:
+      - 'Graphics elements'
+      - a
+      - defs
+      - glyph
+      - g
+      - marker
+      - missing-glyph
+      - pattern
+      - svg
+      - switch
+      - symbol
+  operator:
+    description: "The operator attribute as two meaning based on the context it's used. \nFor the <feComposite> element, it defines the compositing operation that is to be performed.\nFor the <feMorphology> element, it defines whether to erode (i.e., thin) or dilate (fatten) the source graphic."
+    values:
+      over-comp: null
+      in-comp: null
+      out-comp: null
+      atom-comp: null
+      xor-comp: null
+      arithmetic-comp: null
+      erode-morph: null
+      dilate-morph: null
+    usedIn:
+      - feComposite
+      - feMorphology
+  order:
+    description: "the order attribute indicates the size of the matrix to be used by a <feConvolveMatrix> element. \nThe values provided must be <integer>s greater than zero. The first number, <orderX>, indicates the number of columns in the matrix. The second number, <orderY>, indicates the number of rows in the matrix. If <orderY> is not provided, it defaults to <orderX>. \nA typical value is order\"3\". It is recommended that only small values (e.g., 3) be used; higher values may result in very high CPU overhead and usually do not produce results that justify the impact on performance. \nIf the attribute is not specified, the effect is as if a value of 3 were specified."
+    values:
+      number-optional-number: '<number-optional-number>'
+    usedIn:
+      - feConvolveMatrix
+  overflow:
+    description: "The overflow attribute has the same parameter values as defined for the css overflow property. However, the following additional points apply: \nThe overflow attribute only applies to elements that establish new viewports (see below), <pattern> elements and <marker> elements. For all other elements, the property has no effect.\nFor those elements to which the overflow attribute can apply, if the overflow attribute has the value hidden or scroll, the effect is that a new clipping path in the shape of a rectangle is created. The result is equivalent to defining a <clipPath> element whose content is a <rect> element which defines the equivalent rectangle, and then specifying the <uri> of this <clipPath> element on the clip-path attribute for the given element.\nIf the overflow attribute has a value other than hidden or scroll, the property has no effect.\nWithin SVG content, the value auto is equivalent to the value visible.\nWhen an outermost svg element is embedded inline within HTML, if the overflow attribute has the value hidden or scroll, then the browser will establish an initial clipping path equal to the bounds of the initial viewport; otherwise, the initial clipping path is set according to the CSS clipping rules.\nWhen an outermost svg element is stand-alone, the overflow attribute on the outermost svg element is ignored for the purposes of visual rendering and the initial clipping path is set to the bounds of the initial viewport.\nThe initial value for overflow as defined in CSS is visible, and this applies also to the root <svg> element; however, for child elements of an SVG document, SVG's browser style sheet overrides this initial value and sets the  overflow attribute on elements that establish new viewports, ‘pattern’ elements and ‘marker’ elements to the value hidden.\nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css overflow for further information."
+    values:
+      visible: null
+      hidden: null
+      scroll: null
+      auto: null
+      inherit: null
+    usedIn:
+      - svg
+      - symbol
+      - image
+      - foreignObject
+      - pattern
+      - marker
+  overline-position:
+    description: 'The overline-position attribute represents the ideal vertical position of the overline. The overline position is expressed in the font''s coordinate system.'
+    values:
+      number: '<number>'
+    usedIn:
+      - font-face
+  overline-thickness:
+    description: 'The overline-thickness attribute represents the ideal thickness of the overline. The overline thickness is expressed in the font''s coordinate system.'
+    values:
+      number: '<number>'
+    usedIn:
+      - font-face
+  paint-order:
+    description: "The paint-order attribute specifies the order that the fill, stroke, and markers of a given shape or text element are painted. Its default value is normal, which indicates that the fill will be painted first, then the stroke, and finally the markers. To specify a different order, a white space separated list of keywords fill, stroke, and markers can be used. If any of the three painting components is omitted, then they will be painted in their default order after the specified components. For example, using stroke is equivalent to stroke fill markers. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet."
+    values:
+      normal: null
+      ordered: ['fill || stroke || markers']
+      inherit: null
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  pathlength:
+    description: "This attribute lets the author specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio pathLength/(computed value of path length). \nThis can affect the actual rendered lengths of paths; including text paths, animation paths, and various stroke operations. Basically, all computations that require the length of the path. stroke-dasharray, for example, will assume the start of the path being 0 and the end point the value defined in the pathLength attribute."
+    values:
+      number: '<number>'
+    usedIn:
+      - path
+  patternContentUnits:
+    description: "The patternContentUnits attribute defines the coordinate system for the contents of the <pattern>. Note that this attribute has no effect if attribute viewBox is specified on the <pattern> element. \nIf the patternContentUnits attribute isn't specified, then the effect is as if a value of userSpaceOnUse were specified. \nNote that values defined as a percentage inside the content of the <pattern> are not affected by this attribute. It means that even if you set the value of patternContentUnits to objectBoundingBox, percentage values will be calculated as if the value of the attribute were userSpaceOnUse."
+    values:
+      userSpaceOnUse: 'The user coordinate system for the contents of the <pattern> element is the coordinate system that results from taking the current user coordinate system in place at the time when the <pattern> element is referenced (i.e., the user coordinate system for the element referencing the <pattern> element via a fill or stroke attribute) and then applying the transform specified by attribute patternTransform.'
+      objectBoundingBox: 'the user coordinate system for the contents of the <pattern> element is established using the bounding box of the element to which the pattern is applied and then applying the transform specified by attribute patternTransform.'
+    usedIn:
+      - pattern
+  patternTransform:
+    description: "The patternTransform attribute contains the definition of an optional additional transformation from the pattern coordinate system onto the target coordinate system. This allows for things such as skewing the pattern tiles. This additional transformation matrix is post-multiplied to (i.e., inserted to the right of) any previously defined transformations, including the implicit transformation necessary to convert from object bounding box units to user space. \nIf attribute patternTransform is not specified, then the effect is as if an identity transform were specified."
+    values:
+      transform-list: '<transform-list>'
+    usedIn:
+      - pattern
+  patternUnits:
+    description: "The patternUnits attribute defines the coordinate system for attributes x, y, width and height. \nIf the patternUnits attribute isn't specified, then the effect is as if a value of objectBoundingBox were specified."
+    values:
+      userSpaceOnUse: 'The user coordinate system for the contents of the <pattern> element is the coordinate system that results from taking the current user coordinate system in place at the time when the <pattern> element is referenced (i.e., the user coordinate system for the element referencing the <pattern> element via a fill or stroke attribute) and then applying the transform specified by attribute patternTransform.'
+      objectBoundingBox: 'the user coordinate system for the contents of the <pattern> element is established using the bounding box of the element to which the pattern is applied and then applying the transform specified by attribute patternTransform.'
+    usedIn:
+      - pattern
+  pointer-events:
+    description: "The pointer-events attribute allows authors to control whether or when an element may be the target of a mouse event. This attribute is used to specify under which circumstance (if any) a mouse event should go \"through\" an element and target whatever is \"underneath\" that element instead. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet; see css pointer-events  for further information."
+    values:
+      visiblePainted: 'The element can only be the target of a mouse event when the visibility attribute is set to visible and when the mouse cursor is over the interior (i.e., ''fill'') of the element and the fill attribute is set to a value other than none, or when the mouse cursor is over the perimeter (i.e., ''stroke'') of the element and the stroke attribute is set to a value other than none.'
+      visibleFill: 'The element can only be the target of a mouse event when the visibility attribute is set to visible and when the mouse cursor is over the interior (i.e., fill) of the element. The value of the fill attribute does not affect event processing.'
+      visibleStroke: 'The element can only be the target of a mouse event when the visibility attribute is set to visible and when the mouse cursor is over the perimeter (i.e., stroke) of the element. The value of the stroke attribute does not affect event processing.'
+      visible: 'The element can be the target of a mouse event when the visibility attribute is set to visible and the mouse cursor is over either the interior (i.e., fill) or the perimeter (i.e., stroke) of the element. The values of the fill and stroke attribute do not affect event processing.'
+      painted: 'The element can only be the target of a mouse event when the mouse cursor is over the interior (i.e., ''fill'') of the element and the fill attribute is set to a value other than none, or when the mouse cursor is over the perimeter (i.e., ''stroke'') of the element and the stroke attribute is set to a value other than none. The value of the visibility attribute does not affect event processing.'
+      fill: 'The element can only be the target of a mouse event when the pointer is over the interior (i.e., fill) of the element. The values of the fill and visibility attribute do not affect event processing.'
+      stroke: 'The element can only be the target of a mouse event when the pointer is over the perimeter (i.e., stroke) of the element. The values of the stroke and visibility attribute do not affect event processing.'
+      all: 'The element can only be the target of a mouse event when the pointer is over the interior (i.e., fill) or the perimeter (i.e., stroke) of the element. The values of the fill, stroke and visibility attribute do not affect event processing.'
+      none: 'The element is never the target of mouse events, although mouse events may target its descendent elements if those descendents have pointer-events set to some other value, in which case mouse events will trigger event listeners on this element as appropriate on their way to/from the descendent during the event capture/bubble phases.'
+      inherit: null
+    usedIn:
+      - 'Graphics elements'
+  points:
+    description: "The points attribute defines a list of points required to draw a <polyline> or <polygon> element. \nEach point is defined by a X and a Y coordinate in the user coordinate system. It's a common practice (but not required) to use a comma to mark out the X and Y coordinate of each point and to use space to mark out each point."
+    values:
+      list-of-points: '<list-of-points>'
+    usedIn:
+      - polyline
+      - polygon
+  pointsAtX:
+    description: "The pointsAtX attribute represent the X location in the coordinate system established by attribute primitiveUnits on the <filter> element of the point at which the light source is pointing. \nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number: '<number>'
+    usedIn:
+      - feSpotLight
+  pointsAtY:
+    description: "The pointsAtY attribute represent the Y location in the coordinate system established by attribute primitiveUnits on the <filter> element of the point at which the light source is pointing. \nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    vvalues:
+      number: '<number>'
+    usedIn:
+      - feSpotLight
+  pointsAtZ:
+    description: "The pointsAtZ attribute represent the X location in the coordinate system established by attribute primitiveUnits on the <filter> element of the point at which the light source is pointing, assuming that, in the initial coordinate system, the positive Z-axis comes out towards the person viewing the content and assuming that one unit along the Z-axis equals one unit in X and Y. \nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number: '<number>'
+    usedIn:
+      - feSpotLight
+  preserveAlpha:
+    description: "the preserveAlpha attribute indicates how a <feConvolveMatrix> element handled alpha transparency. \nA value of false indicates that the convolution matrix will apply to all channels, including the alpha channel. This is the default value. \nA value of true indicates that the convolution matrix will only apply to the color channels."
+    values:
+      'true': null
+      'false': null
+    usedIn:
+      - feConvolveMatrix
+  preserveAspectRatio:
+    description: "In some cases, typically when using the viewBox attribute, it is desirable that the graphics stretch to fit non-uniformly to take up the entire viewport. In other cases, it is desirable that uniform scaling be used for the purposes of preserving the aspect ratio of the graphics. \nAttribute preserveAspectRatio indicates whether or not to force uniform scaling. \nFor all elements that support that attribute (see above), except for the <image> element, preserveAspectRatio only applies when a value has been provided for viewBox on the same element. For these elements, if attribute viewBox is not provided, then preserveAspectRatio is ignored. \nFor <image> elements, preserveAspectRatio indicates how referenced images should be fitted with respect to the reference rectangle and whether the aspect ratio of the referenced image should be preserved with respect to the current user coordinate system."
+    values:
+      align: 'see: http://devdocs.io/svg/attribute/preserveaspectratio'
+      meetOrSlice: 'see: http://devdocs.io/svg/attribute/preserveaspectratio'
+    usedIn:
+      - svg
+      - symbol
+      - image
+      - feImage
+      - marker
+      - pattern
+      - view
+  primitiveUnits:
+    description: "The primitiveUnits attribute specifies the coordinate system for the various length values within the filter primitives and for the attributes that define the filter primitive subregion. \nIf the primitiveUnits attribute isn't specified, then the effect is as if a value of userSpaceOnUse were specified."
+    values:
+      userSpaceOnUse: 'Any length values within the filter definitions represent values in the current user coordinate system in place at the time when the <filter> element is referenced (i.e., the user coordinate system for the element referencing the <filter> element via a filter attribute).'
+      objectBoundingBox: 'Any length values within the filter definitions represent fractions or percentages of the bounding box on the referencing element.'
+    usedIn:
+      - filter
+  r:
+    description: "For the <circle> this attribute defines the radius of the element. A value of zero disables rendering of the circle. \nFor the <radialGradient> element, this attribute defines the radius of the largest (i.e., outermost) circle for the radial gradient. The gradient will be drawn such that the 100% gradient stop is mapped to the perimeter of this largest (i.e., outermost) circle. A value of zero will cause the area to be painted as a single color using the color and opacity of the last gradient <stop>. If the attribute is not specified, the effect is as if a value of 50% were specified."
+    values:
+      length: 'A distance measurement'
+    usedIn:
+      - circle
+      - radialGradient
+  radius:
+    description: "The radius attribute represent the radius for the operation on a given <feMorphology> filter primitive. If two <number>s are provided, the first number represents a x-radius and the second value represents a y-radius. If one number is provided, then that value is used for both X and Y. The values are in the coordinate system established by the primitiveUnits attribute on the <filter> element. \nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number-optional-number: '<number-optional-number>'
+    usedIn:
+      - feMorphology
+  refX:
+    description: "The refX attribute is used alongside the refY attribute to provides coordinates for the location on the marker where it will be joined to its markable element. Coordinates are relative to the marker's coordinate system, and not the markable element it is placed on. \nAn example use-case for using refX and refY coordinates might be placing the center of the flat bottom of a triangle marker at the end of a line:"
+    values:
+      NA: NA
+    usedIn:
+      - MA
+  repeatCount:
+    description: "This attribute indicates the number of time the animation will take place. \nThis attribute's value specifies the number of iterations. It can include partial iterations expressed as fraction values. Its value must be greater than 0."
+    values:
+      number: '<number>'
+      indefinite: null
+    usedIn:
+      - 'Animation elements'
+  repeatDur:
+    description: 'This attribute specifies the total duration for repeat.'
+    values:
+      clock-value: '<clock-value>'
+      indefinite: null
+    usedIn:
+      - 'Animation elements'
+  requiredFeatures:
+    description: "This attribute takes a list of feature strings, with the individual strings separated by white space. It determines whether or not all of the named features are supported by the browser; if all of them are supported, the attribute evaluates to true end the element is rendered; otherwise, the attribute evaluates to false and the current element and its children are skipped and thus will not be rendered. This provides a way to design SVG that gracefully falls back when features aren't available. \nIf the attribute is not present, then its implicit evaluated value is true. If a null string or empty string value is given to attribute requiredFeatures, the attribute is evaluate to false. \nrequiredFeatures is often used in conjunction with the <switch> element. If requiredFeatures is used in other situations, it represents a simple switch on the given element whether to render the element or not. \nIf you need to detect availability of an SVG feature from script, you can use the DOMImplementation.hasFeature() method."
+    values:
+      list-of-features: '<list-of-features... see: http://devdocs.io/svg/attribute/requiredfeatures'
+    usedIn:
+      - 'Animation elements'
+      - 'Graphics elements'
+      - 'Text content child elements'
+      - a
+      - clipPath
+      - cursor
+      - defs
+      - foreignObject
+      - g
+      - mask
+      - pattern
+      - svg
+      - switch
+  restart:
+    description: 'This attribute indicates when animation can or can not restart.'
+    values:
+      always: 'The animation can be restarted at any time. This is the default value.'
+      whenNotActive: 'The animation can only be restarted when it is not active (i.e. after the active end). Attempts to restart the animation during its active duration are ignored.'
+      never: 'The element cannot be restarted for the remainder of the current simple duration of the parent time container. (In the case of SVG, since the parent time container is the SVG document fragment, then the animation cannot be restarted for the remainder of the document duration.)'
+    usedIn:
+      - 'Animation elements'
+  result:
+    description: 'The result attribute defines the assigned name for this filter primitive. If supplied, then graphics that result from processing this filter primitive can be referenced by an in attribute on a subsequent filter primitive within the same <filter> element. If no value is provided, the output will only be available for re-use as the implicit input into the next filter primitive if that filter primitive provides no value for its in attribute.'
+    values:
+      filter-primitive-reference: 'Note that a <filter-primitive-reference> is not an XML ID; instead, a <filter-primitive-reference> is only meaningful within a given <filter> element and thus have only local scope. It is legal for the same <filter-primitive-reference> to appear multiple times within the same <filter> element. When referenced, the <filter-primitive-reference> will use the closest preceding filter primitive with the given result.'
+    usedIn:
+      - 'Filter primitive elements'
+  rx:
+    description: "For the <ellipse> element, this attribute defines the x-radius of the element. A value of zero disables rendering of the element. \nFor the <rect> element, this attribute defines the x-axis radius of the ellipse used to round off the corners of the rectangle. If a properly specified value is provided for rx but not for ry (or the opposite), then the browser will consider the missing value equal to the defined one. If neither rx nor ry has a properly specified value, then the browser will draw a rectangle with square corners. If rx is greater than half of the width of the rectangle, then the browser will consider the value for rx as half of the width of the rectangle."
+    values:
+      length: length
+    usedIn:
+      - ellipse
+      - rect
+  ry:
+    description: "For the <ellipse> element, this attribute defines the y-radius of the element. A value of zero disables rendering of the element. \nFor the <rect> element, this attribute defines the y-axis radius of the ellipse used to round off the corners of the rectangle. If a properly specified value is provided for ry but not for rx (or the opposite), then the browser will consider the missing value equal to the defined one. If neither ry nor rx has a properly specified value, then the browser will draw a rectangle with square corners. If ry is greater than half of the width of the rectangle, then the browser will consider the value for ry as half of the width of the rectangle."
+    values:
+      length: length
+    usedIn:
+      - ellipse
+      - rect
+  scale:
+    description: "The scale attribute define the displacement scale factor to be used on a <feDisplacementMap> filter primitive. The amount is expressed in the coordinate system established by the primitiveUnits attribute on the <filter> element. \nWhen the value of this attribute is 0, this operation has no effect on the source image. \nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number: '<number>'
+    usedIn:
+      - feDisplacementMap
+  seed:
+    description: "The seed attribute represents the starting number for the pseudo random number generator of the <feTurbulence> primitive. \nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number: '<number>'
+    usedIn:
+      - feTurbulence
+  shape-rendering:
+    description: 'The creator of SVG content might want to provide a hint about what tradeoffs to make as the browser renders <path> element or basic shapes. The shape-rendering attribute provides these hints.'
+    values:
+      auto: 'Indicates that the user agent shall make appropriate tradeoffs to balance speed, crisp edges and geometric precision, but with geometric precision given more importance than speed and crisp edges.'
+      optomizeSpeed: 'Indicates that the user agent shall emphasize rendering speed over geometric precision and crisp edges. This option will sometimes cause the user agent to turn off shape anti-aliasing.'
+      crispEdges: 'Indicates that the user agent shall attempt to emphasize the contrast between clean edges of artwork over rendering speed and geometric precision. To achieve crisp edges, the user agent might turn off anti-aliasing for all lines and curves or possibly just for straight lines which are close to vertical or horizontal. Also, the user agent might adjust line positions and line widths to align edges with device pixels.'
+      geometricPrecision: 'Indicates that the user agent shall emphasize geometric precision over speed and crisp edges.'
+      inherit: null
+    usedIn:
+      - 'Shape elements'
+  specularConstant:
+    description: "The specularConstant attribute represents the ks value in the Phong lighting model. In SVG, this can be any non-negative number. \nIf the attribute is not specified, then the effect is as if a value of 1 were specified."
+    values:
+      number: '<number>'
+    usedIn:
+      - feSpecularLighting
+  specularExponent:
+    description: "The specularExponent attribute controls the focus for the light source, a larger value indicate a more \"shiny\" light. \nFor the <feSpecularLighting> the value should be in the range 1.0 to 128.0 \nIf the attribute is not specified, then the effect is as if a value of 1 were specified."
+    values:
+      number: '<number>'
+    usedIn:
+      - feSpotLight
+      - feSpecularLighting
+  stdDeviation:
+    description: "The stdDeviation attribute defines the standard deviation for the blur operation. If two <number>s are provided, the first number represents a standard deviation value along the x-axis. The second value represents a standard deviation along the y-axis. If one number is provided, then that value is used for both X and Y. \nA negative value is forbidden. A value of zero disables the effect of the given filter primitive (i.e., the result is the filter input image). If stdDeviation is 0 in only one of X or Y, then the effect is that the blur is only applied in the direction that has a non-zero value. \nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number-optional-number: '<number-optional-number>'
+    usedIn:
+      - feGaussianBlur
+  stitchTiles:
+    description: "The stitchTiles attribute defines how the Perlin tiles behave at the border. \nIf stitchTiles=\"noStitch\", no attempt is made to achieve smooth transitions at the border of tiles which contain a turbulence function. Sometimes the result will show clear discontinuities at the tile borders. \nIf stitchTiles=\"stitch\", then the browser will automatically adjust baseFrequency-x and baseFrequency-y values such that the <feTurbulence> node's width and height (i.e., the width and height of the current subregion) contain an integral number of the Perlin tile width and height for the first octave."
+    values:
+      noStitch: null
+      stitch: null
+    usedIn:
+      - feTurbulence
+  stop-color:
+    description: 'The stop-color attribute indicates what color to use at that gradient stop. The keyword currentColor and ICC colors can be specified in the same manner as within a <paint> specification for the fill and stroke attributes.'
+    values:
+      currentColor: null
+      color: '<color>'
+      icccolor: '<icccolor>'
+      inherit: null
+    usedIn:
+      - stop
+  stop-opacity:
+    description: 'The stop-opacity attribute defines the opacity of a given gradient stop.'
+    values:
+      opacity-value: '<opacity-value>'
+      inherit: null
+    usedIn:
+      - stop
+  strikethrough-position:
+    description: 'The strikethrough-position attribute represents the ideal vertical position of the strikethrough. The strikethrough position is expressed in the font''s coordinate system.'
+    values:
+      number: '<number>'
+    usedIn:
+      - font-face
+  strikethrough-thickness:
+    description: 'The strikethrough-thickness attribute represents the ideal thickness of the strikethrough. The strikethrough thickness is expressed in the font''s coordinate system.'
+    values:
+      number: '<number>'
+    usedIn:
+      - font-face
+  stroke:
+    description: 'The stroke attribute defines the color of the outline on a given graphical element. The default value for the stroke attribute is none.'
+    values:
+      paint: '<paint>'
+      context-fill: null
+      context-stroke: null
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  stroke-dasharray:
+    description: "the stroke-dasharray attribute controls the pattern of dashes and gaps used to stroke paths. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet"
+    values:
+      none: null
+      dasharray: 'It''s a list of comma and/or white space separated <length>s and <percentage>s that specify the lengths of alternating dashes and gaps. If an odd number of values is provided, then the list of values is repeated to yield an even number of values. Thus, 5,3,2 is equivalent to 5,3,2,5,3,2.'
+      inherit: null
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  stroke-dashoffset:
+    description: "the stroke-dashoffset attribute specifies the distance into the dash pattern to start the dash. \nIf a <percentage> is used, the value represents a percentage of the current viewport. \nValues can be negative."
+    values:
+      percentage: '<percentage>'
+      length: '<length>'
+      inherit: null
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  strike-linecap:
+    description: "the stroke-linecap attribute specifies the shape to be used at the end of open subpaths when they are stroked. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet"
+    values:
+      butt: null
+      round: null
+      square: null
+      inherit: null
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  stroke-linejoin:
+    description: "The stroke-linejoin attribute specifies the shape to be used at the corners of paths or basic shapes when they are stroked. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet. \nNote: the final appearence of the miter option is also influenced by the stroke-miterlimit attribute."
+    values:
+      miter: null
+      round: null
+      bevel: null
+      inherit: null
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  stroke-miterlimit:
+    description: "When two line segments meet at a sharp angle and miter joins have been specified for stroke-linejoin, it is possible for the miter to extend far beyond the thickness of the line stroking the path. The stroke-miterlimit imposes a limit on the ratio of the miter length to the stroke-width. When the limit is exceeded, the join is converted from a miter to a bevel. \nThe ratio of miter length (distance between the outer tip and the inner corner of the miter) to stroke-width is directly related to the angle (theta) between the segments in user space by the formula: \nmiterLength / stroke-width = 1 / sin ( theta / 2 )\nFor example, a miter limit of 1.414 converts miters to bevels for theta less than 90 degrees, a limit of 4.0 converts them for theta less than approximately 29 degrees, and a limit of 10.0 converts them for theta less than approximately 11.5 degrees."
+    values:
+      miterlimit: 'The limit on the ratio of the miter length to the stroke-width. The value of <miterlimit> must be a <number> greater than or equal to 1.'
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  stroke-opacity:
+    description: "the stroke-opacity attribute specifies the opacity of the outline on the current object. Its default value is 1. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet"
+    values:
+      opacity-value: 'The opacity of the painting operation used to outline the current object, as a number. Any values outside the range 0.0 (fully transparent) to 1.0 (fully opaque) will be clamped to this range.'
+      inherit: null
+      usedIn: ['Shape elements', 'Text content elements']
+  stroke-width:
+    description: "the stroke-width attribute specifies the width of the outline on the current object. Its default value is 1. If a <percentage> is used, the value represents a percentage of the current viewport. If a value of 0 is used the outline will never be drawn. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet"
+    values:
+      length: '<length>'
+      percentage: '<percentage>'
+      inherit: null
+    usedIn:
+      - 'Shape elements'
+      - 'Text content elements'
+  style:
+    description: 'The style attribute specifies style information for its element. It functions identically to the style attribute in HTML.'
+    values:
+      style: "The syntax of style data depends on the style sheet language. By default, the style sheet language is CSS.\nNote: In theory, the contentStyleType attribute could be used to specify styling languages other than CSS, like XSL(T). However, this was never implemented satisfactorily in browsers, so do not rely on it."
+    usedIn:
+      - 'Container elements'
+      - 'Filter primitive elemnets'
+      - 'Gradient elements'
+      - 'Grapics elements'
+      - 'Structural elmeents'
+      - 'Text content elements'
+      - clipPath
+      - filter
+      - font
+      - foreignObject
+      - glyphRef
+      - stop
+      - glyph
+  surfaceScale:
+    description: 'The surfaceScale attribute represent the height of the surface for a light filter primitive. If the attribute is not specified, then the effect is as if a value of 1 were specified.'
+    values:
+      number: '<number>'
+    usedIn:
+      - feDiffuseLighting
+      - feSpecularLighting
+  tabIndex:
+    description: 'The tabindex SVG attribute allows you to control whether an element is focusable and to define the relative order of the element for the purposes of sequential focus navigation.'
+    values:
+      valid-integer: 'Relative order of the element for the purposes of sequential focus navigation'
+    usedIn:
+      - EVERYTHING
+  targetX:
+    description: 'The targetX attribute determines the positioning in X of the convolution matrix relative to a given target pixel in the input image. The leftmost column of the matrix is column number zero. The value must be such that: 0 <= targetX < orderX. By default, the convolution matrix is centered in X over each pixel of the input image (i.e., targetX = floor ( orderX / 2 )).'
+    values:
+      number: '<number>'
+    usedIn:
+      - feConvolveMatrix
+  targetY:
+    description: 'The targetY attribute determines the positioning in Y of the convolution matrix relative to a given target pixel in the input image. The topmost row of the matrix is row number zero. The value must be such that: 0 <= targetY < orderY. By default, the convolution matrix is centered in Y over each pixel of the input image (i.e., targetY = floor ( orderY / 2 )).'
+    values:
+      number: '<number>'
+    usedIn:
+      - feConvolveMatrix
+  text-anchor:
+    description: "The text-anchor attribute is used to align (start-, middle- or end-alignment) a string of text relative to a given point. \nThe text-anchor attribute is applied to each individual text chunk within a given <text> element. Each text chunk has an initial current text position, which represents the point in the user coordinate system resulting from (depending on context) application of the x and y attributes on the <text> element, any x or y attribute values on a <tspan>, <tref> or <altGlyph> element assigned explicitly to the first rendered character in a text chunk, or determination of the initial current text position for a <textPath> element. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet."
+    values:
+      start: 'The rendered characters are aligned such that the start of the text string is at the initial current text position. For Latin in its usual orientation this is equivalent to left alignment. For scripts that are inherently right to left such as Hebrew and Arabic, this is equivalent to right alignment. For Asian text with a vertical primary text direction, this is comparable to top alignment.'
+      middle: 'The rendered characters are aligned such that the middle of the text string is at the current text position. (For text on a path, conceptually the text string is first laid out in a straight line. The midpoint between the start of the text string and the end of the text string is determined. Then, the text string is mapped onto the path with this midpoint placed at the current text position.)'
+      end: 'The rendered characters are aligned such that the end of the text string is at the initial current text position.For Latin in its usual orientation this is equivalent to right alignment. For scripts that are inherently right to left such as Hebrew and Arabic, this is equivalent to left alignment.'
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  text-decoration:
+    description: 'The text-decoration attribute works exactly like the css text decoration property except that it''s an attribute. See css text decoration for further information.'
+    values:
+      none: null
+      underline: null
+      overline: null
+      line-through: null
+      blink: null
+      inherit: null
+    usedIn:
+      - 'Text content elemnets'
+  text-rendering:
+    description: "The creator of SVG content might want to provide a hint about what tradeoffs to make as the browser renders text. The text-rendering attribute provides these hints. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css text-rendering for further information"
+    values:
+      auto: 'Indicates that the browser shall make appropriate tradeoffs to balance speed, legibility and geometric precision, but with legibility given more importance than speed and geometric precision.'
+      optimizeSpeed: 'Indicates that the user agent shall emphasize rendering speed over legibility and geometric precision. This option will sometimes cause some browsers to turn off text anti-aliasing.'
+      optimizeLegibility: 'Indicates that the browser shall emphasize legibility over rendering speed and geometric precision. The user agent will often choose whether to apply anti-aliasing techniques, built-in font hinting or both to produce the most legible text.'
+      geometricPrecision: 'Indicates that the browser shall emphasize geometric precision over legibility and rendering speed. This option will usually cause the user agent to suspend the use of hinting so that glyph outlines are drawn with comparable geometric precision to the rendering of path data.'
+      inherit: null
+    usedIn:
+      - text
+  textLength:
+    description: "The textLength attribute, available on SVG <text> and <tspan> elements, lets you specify the width of the space into which the text will draw. The user agent will ensure that the text does not extend farther than that distance, using the method or methods specified by the lengthAdjust attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change lengthAdjust. \nBy using textLength, you can ensure that your SVG text displays at the same width regardless of conditions including web fonts failing to load (or not having loaded yet)."
+    values:
+      length: '<length>'
+    usedIn:
+      - text
+      - span
+  to:
+    description: "This attribute indicates the final value of the attribute that will be modified during the animation. The value of the attribute will change between the from attribute value and this value. By default the change will be linear. \nWhen this attribute is used with the <set> element, it specifies the value for the attribute during the duration of the <set> element. \n"
+    values:
+      value: 'The exact value type for this attribute depend on the value of the attribute that will be animated.'
+    usedIn:
+      - 'Animation elements'
+  transform:
+    description: 'The transform attribute defines a list of transform definitions that are applied to an element and the element''s children. The items in the transform list are separated by whitespace and/or commas, and are applied from right to left.'
+    values:
+      transform-list: 'see: http://devdocs.io/svg/attribute/transform'
+    usedIn:
+      - a
+      - clipPath
+      - defs
+      - foreignObject
+      - g
+      - switch
+      - use
+      - 'svg (2 onwards)'
+      - 'Graphics elements'
+  type:
+    description: "The type attribute is a generic attribute and it has different meaning based on the context in which it's used. \nFor the <animateTransform> element, it defines the type of transformation, whose values change over time.\nFor the <feColorMatrix> element, it indicates the type of matrix operation. The keyword matrix indicates that a full 5x4 matrix of values will be provided. The other keywords represent convenience shortcuts to allow commonly used color operations to be performed without specifying a complete matrix.\nFor the <feFuncR>, <feFuncG>, <feFuncB>, and <feFuncA> elements, it Indicates the type of component transfer function.\nFor the <feTurbulence> element, it indicates whether the filter primitive should perform a noise or turbulence function.\nFor the <style> and <script> elements, it defines the content type of the element."
+    values:
+      translate-animTransform: null
+      scale-animTransform: null
+      rorate-animTransform: null
+      skewX-animTransform: null
+      skewY-animTransform: null
+      matrix-feColorMatrix: null
+      saturate-feColorMatrix: null
+      hueRotate-feColorMatrix: null
+      luminanceToAlpha-feColorMatrix: null
+      identity-feFunc: null
+      table-feFunc: null
+      discrete-feFunc: null
+      linear-feFunc: null
+      gamma-feFunc: null
+      fracrtalNoise-feTurb: null
+      turbulence-feTurb: null
+      content-type-style-script: '<content-type>'
+    usedIn:
+      - animateTransform
+      - feColorMatrix
+      - feFuncA
+      - feFuncB
+      - feFuncG
+      - feFuncR
+      - feTurbulence
+      - script
+      - style
+  underline-position:
+    description: 'The underline-position attribute represents the ideal vertical position of the underline. The underline position is expressed in the font''s coordinate system.'
+    values:
+      number: '<number>'
+    usedIn:
+      - font-face
+  underline-thickness:
+    description: 'The underline-thickness attribute represents the ideal thickness of the underline. The underline thickness is expressed in the font''s coordinate system.'
+    values:
+      number: '<number>'
+    usedIn:
+      - font-face
+  values:
+    description: "The values attribute has two meaning based on the context it's used. \nFor animation elements, the values attribute is a semicolon-separated list of one or more values. The animation will apply the values in order over the course of the animation. If a list of values is specified, any from, to and by attribute values are ignored. \nFor the <feColorMatrix> element, the contents of values depends on the value of attribute type: \nFor type=\"matrix\", values is a list of 20 matrix values (a00 a01 a02 a03 a04 a10 a11 ... a34), separated by whitespace and/or a comma.\nFor type=\"saturate\", values is a single real number value (0 to 1).\nFor type=\"hueRotate\", values is a single one real number value (degrees).\nFor type=\"luminanceToAlpha\", values is not applicable.\nIf the attribute is not specified, then the default behavior depends on the value of attribute type. \nIf type=\"matrix\", then this attribute defaults to the identity matrix.\nIf type=\"saturate\", then this attribute defaults to the value 1, which results in the identity matrix.\nIf type=\"hueRotate\", then this attribute defaults to the value 0, which results in the identity matrix."
+    values:
+      list-animation: null
+      list-feColorMatrix: null
+      number-feColorMatrix: null
+    usedIn:
+      - 'Animation elements'
+      - feColorMatrix
+  version:
+    description: "The version attribute is used to indicate what specification a SVG document conforms to. It is only allowed on the root <svg> element. It is purely advisory and has no influence on rendering or processing. \nWhile it is specified to accept any number, the only two valid choices are currently 1.0 and 1.1."
+    values:
+      number: '<number>'
+    usedIn:
+      - 'any???'
+  viewBox:
+    description: "The viewBox attribute allows you to specify that a given set of graphics stretch to fit a particular container element. \nThe value of the viewBox attribute is a list of four numbers min-x, min-y, width and height, separated by whitespace and/or a comma, which specify a rectangle in user space which should be mapped to the bounds of the viewport established by the given element, taking into account attribute preserveAspectRatio. \nNegative values for width or height are not permitted and a value of zero disables rendering of the element."
+    values:
+      see: description
+    usedIn:
+      - svg
+      - symbol
+      - marker
+      - pattern
+      - view
+  visibility:
+    description: "The visibility attribute lets you control the visibility of graphical elements. With a value of hidden or collapse the current graphics element is invisible. \nNote: If the visibility attribute is set to hidden on a <tspan>, <tref> or <altGlyph> element, then the text is invisible but still takes up space in text layout calculations.\nDepending on the value of attribute pointer-events, graphics elements which have their visibility attribute set to hidden still might receive events. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css visibility for further information."
+    values:
+      visible: null
+      hidden: null
+      collapse: null
+      inherit: null
+    usedIn:
+      - 'Graphics elements'
+      - 'Text content elements'
+  width:
+    description: "This attribute indicates an horizontal length in the user coordinate system. The exact effect of this coordinate depends on each element. Most of the time, it represents the width of the rectangular region of the reference element (see each individual element's documentation for exceptions). \nThis attribute must be specified except for the <svg> element where the default value is 100% (except for root <svg> elements that have HTML parents) and the <filter> and <mask> elements where the default value is 120%."
+    values:
+      length: '<length>'
+    usedIn:
+      - 'Filter primitive elements'
+      - filter
+      - foreignObject
+      - image
+      - pattern
+      - rect
+      - svg
+      - use
+      - mask
+  word-spacing:
+    description: "The word-spacing attribute specifies spacing behavior between words. \nFor SVG, if a <length> is provided without a unit identifier (e.g., an unqualified number such as 128), the browser processes the <length> as a width value in the current user coordinate system. \nIf a <length> is provided with one of the unit identifiers (e.g., .25em or 1%), then the browser converts the <length> into a corresponding value in the current user coordinate system. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css word-spacing for further information."
+    values:
+      normal: null
+      length: '<length>'
+      inherit: null
+    usedIn:
+      - 'Text content elements'
+  writing-mode:
+    description: "The writing-mode attribute specifies whether the initial inline-progression-direction for a <text> element shall be left-to-right, right-to-left, or top-to-bottom. The writing-mode attribute applies only to <text> elements; the attribute is ignored for <tspan>, <tref>, <altGlyph> and <textPath> sub-elements. (Note that the inline-progression-direction can change within a <text> element due to the Unicode bidirectional algorithm and properties direction and unicode-bidi. \nAs a presentation attribute, it also can be used as a property directly inside a CSS stylesheet, see css writing-mode for further information"
+    values:
+      lr-tb: 'Sets the initial inline-progression-direction to left-to-right, as is common in most Latin-based documents. For most characters, the current text position is advanced from left to right after each glyph is rendered.'
+      rl-tb: 'Sets the initial inline-progression-direction to right-to-left, as is common in Arabic or Hebrew scripts.'
+      tb-rl: 'Sets the initial inline-progression-direction to top-to-bottom, as is common in some Asian scripts, such as Chinese and Japanese. Though hardly as frequent as horizontal, this type of vertical layout also occurs in Latin based documents, particularly in table column or row labels. In most cases, the vertical baselines running through the middle of each glyph are aligned.'
+      lr: 'Sets the initial inline-progression-direction to left-to-right, as is common in most Latin-based documents. For most characters, the current text position is advanced from left to right after each glyph is rendered.'
+      rl: 'Sets the initial inline-progression-direction to right-to-left, as is common in Arabic or Hebrew scripts.'
+      tb: 'Sets the initial inline-progression-direction to top-to-bottom, as is common in some Asian scripts, such as Chinese and Japanese. Though hardly as frequent as horizontal, this type of vertical layout also occurs in Latin based documents, particularly in table column or row labels. In most cases, the vertical baselines running through the middle of each glyph are aligned.'
+      inherit: null
+    usedIn:
+      - text
+  x:
+    description: "This attribute indicates an x-axis coordinate in the user coordinate system. The exact effect of this coordinate depends on each element. Most of the time, it represents the x-axis coordinate of the upper-left corner of the rectangular region of the reference element (see each individual element's documentation for exceptions). Its syntax is the same as that for <length>. \nIf the attribute is not specified, the effect is as if a value of 0 were specified except for the <filter> and <mask> elements where the default value is -10%."
+    values:
+      coordinate: '<coordinate>'
+    usedIn:
+      - 'Filter primitive elements'
+      - altGlyph
+      - fePointLight
+      - feSpotLight
+      - filter
+      - foreignObject
+      - glyphRef
+      - image
+      - pattern
+      - rect
+      - svg
+      - text
+      - use
+      - mask
+      - tref
+      - tspan
+  x1:
+    description: "The SVG x1 attribute is used to specify the first x-coordinate for drawing an SVG element that requires more than one coordinate. Elements that only need one coordinate use the x attribute instead. \nFor the <line> element, this attribute specifies the x-coordinate of the first of the two endpoints of the line. If the x1 attribute isn't provided, a default value of 0 is assumed. \nFor the <linearGradient> element, this attribute specifies the x-coordinate of the start of the vector gradient onto which the color stops defined by the enclosed <stop> elements are mapped. Without the x1 attribute, the vector gradient starts at 0%."
+    values:
+      coordinate: '<coordinate>'
+    usedIn:
+      - line
+      - linearGradient
+  x2:
+    description: "For the <line> element, this attribute define the x-axis coordinate of the end of the line. If the attribute is not specified, the effect is as if a value of 0 were specified. \nFor the <linearGradient> element, this attribute define the x-axis coordinate of the end of the vector gradient onto which the <stop> elements are mapped. If the attribute is not specified, the effect is as if a value of 100% were specified."
+    values:
+      coordinate: '<coordinate>'
+    usedIn:
+      - line
+      - linearGradient
+  xChannelSelector:
+    description: 'For a <feDisplacementMap> filter primitive, The xChannelSelector attribute indicates which channel from in2 to use to displace the pixels in in along the x-axis. If attribute xChannelSelector is not specified, then the effect is as if a value of A were specified.'
+    values:
+      R: null
+      G: null
+      B: null
+      A: null
+    usedIn:
+      - feDisplacemenetMap
+  'xlink:href':
+    description: 'DEPRECATED (since SVG 2)'
+    values:
+      DEPRECATED: 'NO SERIOUSLY IT IS, USE PLAIN HREF'
+    usedIn:
+      - DEPRECATED
+  'xlink:show':
+    description: 'This attribute is provided for backwards compatibility with SVG 1.1. It provides documentation to XLink-aware processors. In case of a conflict, the target attribute has priority, since it can express a wider range of values.'
+    values:
+      string: '<string>'
+    usedIn:
+      - a
+      - altGlyph
+      - animate
+      - animateColor
+      - animateMotion
+      - animateTransform
+      - color-profile
+      - cursor
+      - feImage
+      - filter
+      - font-face-uri
+      - glyphRef
+      - image
+      - linearGradient
+      - mpath
+      - pattern
+      - radialGradient
+      - script
+      - set
+      - extPath
+      - tref
+      - use
+  'xlink:title':
+    description: 'The xlink:title attribute is used to describe the meaning of a link or resource in a human-readable fashion, along the same lines as the xlink:role or xlink:arcrole attribute. A value is optional; if a value is supplied, it shall contain a string that describes the resource. In general it is preferable to use a <title> child element rather than a xlink:title attribute.'
+    values:
+      string: '<string>'
+    usedIn:
+      - a
+      - altGlyph
+      - animate
+      - animateColor
+      - animateMotion
+      - animateTransform
+      - color-profile
+      - cursor
+      - feImage
+      - filter
+      - font-face-uri
+      - glyphRef
+      - image
+      - linearGradient
+      - mpath
+      - pattern
+      - radialGradient
+      - script
+      - set
+      - extPath
+      - tref
+      - use
+  'xml:lang':
+    description: "xml:lang is a universal attribute allowed in all XML dialects to mark up the natural human language that an element contains. It's almost identical in usage to HTML's lang, but in conforming XML 1.0 documents, it does not allow the use of a null attribute value (xml:lang=\"\") to indicate an unknown language. Instead, use xml:lang=\"und\". \nSVG also has a native lang attribute, but it's only available on certain elements. xml:lang can be used anywhere."
+    values:
+      IDK: 'i don''t know :('
+    usedIn:
+      - 'everything??? idk'
+  'xml:space':
+    description: DEPRECATED
+    values:
+      DEPRECATED: SERIOUSLY
+    usedIn:
+      - DEPRECATED
+  y:
+    description: "The y attribute indicates a y-axis coordinate in the current SVG coordinate system. The exact effect of this coordinate depends on the element. Most of the time, it represent the y-axis coordinate of the upper-left corner of the bounding box of the reference element, positioning the element vertically. \nIf the attribute is not specified, the default value is 0, except for the <filter> and <mask> elements where the default is -10%."
+    values:
+      coordinate: '<coordinate>'
+    usedIn:
+      - 'Filter primitive elements'
+      - altGlyph
+      - fePointLight
+      - feSpotLight
+      - filter
+      - foreignObject
+      - glyphRef
+      - image
+      - pattern
+      - rect
+      - svg
+      - ext
+      - use
+      - mask
+      - tref
+      - tspan
+  y1:
+    description: "For the <line> element, this attribute define the y-axis coordinate of the start of the line. If the attribute is not specified, the effect is as if a value of 0 were specified. \nFor the <linearGradient> element, this attribute define the y-axis coordinate of the start of the vector gradient onto which the <stop> elements are mapped. If the attribute is not specified, the effect is as if a value of 0% were specified."
+    values:
+      coordinate: '<coordinate>'
+    usedIn:
+      - line
+      - linearGradient
+  y2:
+    description: "For the <line> element, this attribute define the y-axis coordinate of the end of the line. If the attribute is not specified, the effect is as if a value of 0 were specified. \nFor the <linearGradient> element, this attribute define the y-axis coordinate of the end of the vector gradient onto which the <stop> elements are mapped. If the attribute is not specified, the effect is as if a value of 0% were specified."
+    values:
+      coordinate: '<coordinate>'
+    usedIn:
+      - line
+      - linearGradient
+  yChannelSelector:
+    description: 'For a <feDisplacementMap> filter primitive, the yChannelSelector attribute indicates which channel from in2 to use to displace the pixels in in along the y-axis. If attribute yChannelSelector is not specified, then the effect is as if a value of A were specified.'
+    values:
+      R: null
+      G: null
+      B: null
+      A: null
+    usedIn:
+      - feDisplacementMap
+  z:
+    description: "The z attribute difine the location along the Z-axis for a light source in the coordinate system established by the primitiveUnits attribute on the <filter> element, assuming that, in the initial coordinate system, the positive Z-axis comes out towards the person viewing the content and assuming that one unit along the Z-axis equals on unit in X and Z. \nIf the attribute is not specified, then the effect is as if a value of 0 were specified."
+    values:
+      number: '<number>'
+    usedIn:
+      - fePointLight
+      - feSpotLight
+'attribute categories':
+  'Animation event attributes':
+    - onbegin
+    - onend
+    - onload
+    - onrepeat
+  'Animation attributes target attributes':
+    - attributeType
+    - attributeName
+  'Animation timing attributes':
+    - begin
+    - dur
+    - end
+    - min
+    - max
+    - restart
+    - repeatCount
+    - repeatDur
+    - fill
+  'Animation value attributes':
+    - calcMode
+    - values
+    - keyTimes
+    - keySplines
+    - from
+    - to
+    - by
+    - autoReverse
+    - accelerate
+    - decelerate
+  'Animation addition attributes':
+    - additive
+    - accumulate
+  'Conditional processing attributes':
+    - requiredExtensions
+    - requiredFeatures
+    - systemLanguage
+  'Core attributes':
+    - id
+    - 'xml:base'
+    - 'xml:lang'
+    - 'xml:space'
+    - tabindex
+  'Document event attributes':
+    - onabort
+    - onerror
+    - onresize
+    - onscroll
+    - onunload
+  'Filter primitive attribtues':
+    - height
+    - result
+    - width
+    - x
+    - y
+  'Graphical event attributes':
+    - onactivate
+    - onclick
+    - onfocusin
+    - onfocusout
+    - onload
+    - onmousedown
+    - onmousemove
+    - onmouseout
+    - onmouseover
+    - onmouseup
+  'Presentation attributes':
+    - alignment-baseline
+    - baseline-shift
+    - clip
+    - clip-path
+    - clip-rule
+    - color
+    - color-interpolation
+    - color-interpolation-filters
+    - color-profile
+    - color-rendering
+    - cursor
+    - direction
+    - display
+    - dominant-baseline
+    - enable-background
+    - fill
+    - fill-opacity
+    - fill-rule
+    - filter
+    - flood-color
+    - flood-opacity
+    - font-family
+    - font-size
+    - font-size-adjust
+    - font-stretch
+    - font-style
+    - font-variant
+    - font-weight
+    - glyph-orientation-horizontal
+    - glyph-orientation-vertical
+    - image-rendering
+    - kerning
+    - letter-spacing
+    - lighting-color
+    - marker-end
+    - marker-mid
+    - marker-start
+    - mask
+    - opacity
+    - overflow
+    - pointer-events
+    - shape-rendering
+    - stop-color
+    - stop-opacity
+    - stroke
+    - stroke-dasharray
+    - stroke-dashoffset
+    - stroke-linecap
+    - stroke-linejoin
+    - stroke-miterlimit
+    - stroke-opacity
+    - stroke-width
+    - text-anchor
+    - text-decorum
+    - text-rendering
+    - unicode-bidi
+    - visibility
+    - word-spacing
+    - writing-mode
+  'Style attributes':
+    - class
+    - style
+  'Transfer function attributes':
+    - type
+    - tablevalues
+    - slope
+    - intercept
+    - amplitude
+    - exponent
+    - offset
+  'XLink attributes':
+    - 'xlink:href'
+    - 'xlink:type'
+    - 'xlink:role'
+    - 'xlink:arcrole'
+    - 'xlink:title'
+    - 'xlink:show'
+    - 'xlink:actuate'
+'Content types':
+  Source: 'http://devdocs.io/svg/content_type'
+  types:
+    - angle
+    - anything
+    - clock-value
+    - color
+    - coordinate
+    - frequency
+    - FuncIRI
+    - icccolor
+    - integer
+    - IRI
+    - length
+    - list-of-Ts
+    - name
+    - number
+    - number-optional-number
+    - opacity-value
+    - paint
+    - percentage
+    - time
+    - transform-list
+    - URL
