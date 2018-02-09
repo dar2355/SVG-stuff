@@ -1,0 +1,15 @@
+{
+  "name": "prettifySVG",
+  "version": "1.0.0",
+  "description": "Prettifies SVG so people can actually understand it",
+  "main": "index.js",
+  "author": "Dominick Reba",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promisify": "^6.0.0",
+    "prettier": "^1.10.2",
+    "pretty-data": "^0.40.0",
+    "svg-pathdata": "^4.0.1",
+    "xml2js": "^0.4.19"
+  }
+}
